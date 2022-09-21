@@ -2,7 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import NavigationLinks from './navigation-links'
 import './header.css'
 
 const Header = (props) => {
@@ -62,10 +61,6 @@ const Header = (props) => {
                 </svg>
               </div>
             </div>
-            <NavigationLinks
-              rootClassName="rootClassName13"
-              className=""
-            ></NavigationLinks>
           </nav>
           <div className="">
             <svg viewBox="0 0 877.7142857142857 1024" className="header-icon10">
