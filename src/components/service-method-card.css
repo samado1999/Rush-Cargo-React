@@ -12,13 +12,14 @@
   height: auto;
   display: flex;
   margin-top: var(--dl-space-space-sixunits);
-  align-items: flex-start;
+  align-items: center;
   padding-left: var(--dl-space-space-sixunits);
   margin-bottom: var(--dl-space-space-sixunits);
   padding-right: var(--dl-space-space-sixunits);
+  justify-content: center;
 }
 .service-method-card-image {
-  width: 100%;
+  width: 300px;
   height: auto;
   box-shadow: 5px 5px 10px 0px #d4d4d4;
   object-fit: cover;

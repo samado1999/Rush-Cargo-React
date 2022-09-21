@@ -3,9 +3,12 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
+import SolutionCard from '../components/solution-card'
 import TextCard from '../components/text-card'
-import ServiceCard from '../components/service-card'
+import SocialMediaCard from '../components/social-media-card'
 import ServiceMethodCard from '../components/service-method-card'
+import HeadingCard from '../components/heading-card'
+import ServiceCard from '../components/service-card'
 import Footer from '../components/footer'
 import './home.css'
 
@@ -23,20 +26,31 @@ const Home = (props) => {
       />
       <Header rootClassName="header-root-class-name"></Header>
       <div className="home-container1">
-        <TextCard
-          heading="Experiencia"
-          rootClassName="text-card-root-class-name"
-        ></TextCard>
-        <TextCard
-          heading="Personalización"
-          rootClassName="text-card-root-class-name1"
-        ></TextCard>
-        <TextCard
-          heading="Confianza"
-          rootClassName="text-card-root-class-name2"
-        ></TextCard>
+        <SolutionCard heading="Todas las soluciones en transporte de mercancía"></SolutionCard>
       </div>
       <div className="home-container2">
+        <TextCard text="Un servicio que te ayuda a traer todas tus compras del exterior"></TextCard>
+      </div>
+      <SocialMediaCard></SocialMediaCard>
+      <ServiceMethodCard rootClassName="service-method-card-root-class-name"></ServiceMethodCard>
+      <div className="home-container3">
+        <HeadingCard
+          heading="Experiencia"
+          rootClassName="heading-card-root-class-name"
+        ></HeadingCard>
+        <HeadingCard
+          heading="Personalización"
+          rootClassName="heading-card-root-class-name1"
+        ></HeadingCard>
+        <HeadingCard
+          heading="Confianza"
+          rootClassName="heading-card-root-class-name2"
+        ></HeadingCard>
+      </div>
+      <div className="home-container4">
+        <h1 className="home-text">Servicios</h1>
+      </div>
+      <div className="home-container5">
         <ServiceCard
           heading="Courier"
           image_src="/playground_assets/airplane-200h.png"
@@ -52,7 +66,6 @@ const Home = (props) => {
           rootClassName="service-card-root-class-name"
         ></ServiceCard>
       </div>
-      <ServiceMethodCard rootClassName="service-method-card-root-class-name"></ServiceMethodCard>
       <Footer rootClassName="footer-root-class-name"></Footer>
     </div>
   )

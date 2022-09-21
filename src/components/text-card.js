@@ -6,22 +6,18 @@ import './text-card.css'
 
 const TextCard = (props) => {
   return (
-    <div className={`text-card-container ${props.rootClassName} `}>
-      <div className="text-card-container1">
-        <h1 className="text-card-text">{props.heading}</h1>
-      </div>
+    <div className="text-card-container">
+      <span className="text-card-text">{props.text}</span>
     </div>
   )
 }
 
 TextCard.defaultProps = {
-  heading: 'Heading',
-  rootClassName: '',
+  text: 'Text',
 }
 
 TextCard.propTypes = {
-  heading: PropTypes.string,
-  rootClassName: PropTypes.string,
+  text: PropTypes.string,
 }
 
 export default TextCard

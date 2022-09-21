@@ -1,0 +1,14 @@
+.solution-card-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.solution-card-text {
+  color: #2F5597;
+  margin: var(--dl-space-space-twounits);
+}

@@ -5,6 +5,7 @@
   position: relative;
   max-width: 100%;
   align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
   justify-content: center;
   background-color: hsla(0,0%,100%,.8);
@@ -31,16 +32,19 @@
 .header-icon {
   width: 24px;
   height: 24px;
+  display: none;
   margin-right: var(--dl-space-space-unit);
 }
 .header-icon02 {
   width: 24px;
   height: 24px;
+  display: none;
   margin-right: var(--dl-space-space-unit);
 }
 .header-icon04 {
   width: 24px;
   height: 24px;
+  display: none;
   margin-right: var(--dl-space-space-unit);
 }
 .header-icon06 {
@@ -60,7 +64,7 @@
   position: absolute;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: var(--dl-color-gray-white);
 }
 .header-nav {
   display: flex;
@@ -86,6 +90,9 @@
 .header-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+}
+.header-icon-group1 {
+  display: none;
 }
 .header-icon10 {
   width: 24px;
