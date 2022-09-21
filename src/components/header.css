@@ -57,7 +57,7 @@
   top: 0px;
   left: 0px;
   width: 100%;
-  height: var(--dl-size-size-maxwidth);
+  height: 100vh;
   display: none;
   padding: 32px;
   z-index: 100;
