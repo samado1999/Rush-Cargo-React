@@ -26,10 +26,16 @@ const Home = (props) => {
       />
       <Header rootClassName="header-root-class-name"></Header>
       <div className="home-container1">
-        <SolutionCard heading="Todas las soluciones en transporte de mercancía"></SolutionCard>
+        <SolutionCard
+          heading="Todas las soluciones en transporte de mercancía"
+          rootClassName="solution-card-root-class-name"
+        ></SolutionCard>
       </div>
       <div className="home-container2">
-        <TextCard text="Un servicio que te ayuda a traer todas tus compras del exterior"></TextCard>
+        <TextCard
+          text="Un servicio que te ayuda a traer todas tus compras del exterior"
+          rootClassName="text-card-root-class-name"
+        ></TextCard>
       </div>
       <SocialMediaCard></SocialMediaCard>
       <ServiceMethodCard rootClassName="service-method-card-root-class-name"></ServiceMethodCard>

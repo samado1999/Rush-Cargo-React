@@ -12,7 +12,11 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  margin-left: var(--dl-space-space-twounits);
-  margin-right: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
+}
+
+@media(max-width: 885px) {
+  .text-card-root-class-name {
+    align-self: flex-start;
+  }
 }

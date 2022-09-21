@@ -6,7 +6,7 @@ import './solution-card.css'
 
 const SolutionCard = (props) => {
   return (
-    <div className="solution-card-container">
+    <div className={`solution-card-container ${props.rootClassName} `}>
       <h1 className="solution-card-text">{props.heading}</h1>
     </div>
   )
@@ -14,10 +14,12 @@ const SolutionCard = (props) => {
 
 SolutionCard.defaultProps = {
   heading: 'Heading',
+  rootClassName: '',
 }
 
 SolutionCard.propTypes = {
   heading: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default SolutionCard

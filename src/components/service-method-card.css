@@ -28,3 +28,9 @@
 .service-method-card-root-class-name {
   align-self: center;
 }
+@media(max-width: 479px) {
+  .service-method-card-container1 {
+    margin-top: var(--dl-space-space-fiveunits);
+    margin-bottom: var(--dl-space-space-fiveunits);
+  }
+}

@@ -10,5 +10,18 @@
 }
 .solution-card-text {
   color: #2F5597;
-  margin: var(--dl-space-space-twounits);
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+
+@media(max-width: 885px) {
+  .solution-card-root-class-name {
+    align-self: flex-start;
+  }
+}
+@media(max-width: 479px) {
+  .solution-card-text {
+    margin-top: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-twounits);
+  }
 }
