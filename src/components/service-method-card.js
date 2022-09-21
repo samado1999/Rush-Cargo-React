@@ -21,7 +21,7 @@ const ServiceMethodCard = (props) => {
 ServiceMethodCard.defaultProps = {
   rootClassName: '',
   image_alt: 'image',
-  image_src: '/playground_assets/roadmap%20metodo%20de%20servicio-300w.png',
+  image_src: '/playground_assets/roadmap%20metodo%20servicio%202-400w.jpg',
 }
 
 ServiceMethodCard.propTypes = {
