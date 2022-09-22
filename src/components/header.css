@@ -64,7 +64,6 @@
   padding: 32px;
   z-index: 100;
   position: fixed;
-  overflow-y: auto;
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
