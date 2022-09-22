@@ -37,7 +37,7 @@ const Home = (props) => {
           rootClassName="text-card-root-class-name"
         ></TextCard>
       </div>
-      <SocialMediaCard></SocialMediaCard>
+      <SocialMediaCard rootClassName="social-media-card-root-class-name"></SocialMediaCard>
       <ServiceMethodCard rootClassName="service-method-card-root-class-name"></ServiceMethodCard>
       <div className="home-container3">
         <HeadingCard

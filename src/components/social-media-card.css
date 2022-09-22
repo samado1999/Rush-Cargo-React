@@ -59,6 +59,9 @@
   width: 70px;
   height: 70px;
 }
+.social-media-card-root-class-name {
+  display: none;
+}
 @media(max-width: 479px) {
   .social-media-card-container {
     flex-direction: column;
