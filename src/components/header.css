@@ -63,7 +63,7 @@
   display: none;
   padding: 32px;
   z-index: 100;
-  overflow: auto;
+  overflow: hidden;
   position: absolute;
   flex-direction: column;
   justify-content: space-between;
