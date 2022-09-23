@@ -3,9 +3,7 @@
   width: 100%;
   display: flex;
   position: relative;
-  margin-top: var(--dl-space-space-threeunits);
   align-items: center;
-  margin-bottom: var(--dl-space-space-threeunits);
   justify-content: center;
 }
 .social-media-card-container1 {

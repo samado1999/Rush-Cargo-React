@@ -55,9 +55,20 @@ const Home = (props) => {
       <ServiceMethodCard rootClassName="service-method-card-root-class-name"></ServiceMethodCard>
       <SocialMediaCard rootClassName="social-media-card-root-class-name1"></SocialMediaCard>
       <div className="home-container4">
-        <h1 className="home-text">Servicios</h1>
+        <div className="home-container5">
+          <span className="home-text">
+            <span>Síguenos en redes sociales</span>
+            <br></br>
+          </span>
+        </div>
       </div>
-      <div className="home-container5">
+      <div className="home-container6">
+        <h1 className="home-text3">
+          <span>Nuestros servicios</span>
+          <br></br>
+        </h1>
+      </div>
+      <div className="home-container7">
         <ServiceCard
           heading="Courier"
           image_src="/playground_assets/airplane-200h.png"
