@@ -30,8 +30,3 @@
     margin-bottom: var(--dl-space-space-twounits);
   }
 }
-@media(max-width: 479px) {
-  .about-card-container1 {
-    width: 385px;
-  }
-}
