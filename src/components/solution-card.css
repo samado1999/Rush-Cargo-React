@@ -10,7 +10,10 @@
 }
 .solution-card-text {
   color: #2F5597;
+  font-size: 43px;
+  font-style: normal;
   margin-top: var(--dl-space-space-twounits);
+  font-weight: 500;
   margin-bottom: var(--dl-space-space-twounits);
 }
 

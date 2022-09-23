@@ -12,6 +12,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: center;
+  background-color: #2F5597;
 }
 .heading-card-container1 {
   flex: 0 0 auto;
@@ -27,9 +28,10 @@
   justify-content: center;
 }
 .heading-card-text {
-  color: #2F5597;
+  color: var(--dl-color-gray-white);
+  font-size: 23px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 

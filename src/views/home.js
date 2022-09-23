@@ -5,9 +5,9 @@ import { Helmet } from 'react-helmet'
 import Header from '../components/header'
 import SolutionCard from '../components/solution-card'
 import TextCard from '../components/text-card'
+import HeadingCard from '../components/heading-card'
 import SocialMediaCard from '../components/social-media-card'
 import ServiceMethodCard from '../components/service-method-card'
-import HeadingCard from '../components/heading-card'
 import ServiceCard from '../components/service-card'
 import Footer from '../components/footer'
 import './home.css'
@@ -37,8 +37,6 @@ const Home = (props) => {
           rootClassName="text-card-root-class-name"
         ></TextCard>
       </div>
-      <SocialMediaCard rootClassName="social-media-card-root-class-name"></SocialMediaCard>
-      <ServiceMethodCard rootClassName="service-method-card-root-class-name"></ServiceMethodCard>
       <div className="home-container3">
         <HeadingCard
           heading="Experiencia"
@@ -53,6 +51,9 @@ const Home = (props) => {
           rootClassName="heading-card-root-class-name2"
         ></HeadingCard>
       </div>
+      <SocialMediaCard rootClassName="social-media-card-root-class-name"></SocialMediaCard>
+      <ServiceMethodCard rootClassName="service-method-card-root-class-name"></ServiceMethodCard>
+      <SocialMediaCard rootClassName="social-media-card-root-class-name1"></SocialMediaCard>
       <div className="home-container4">
         <h1 className="home-text">Servicios</h1>
       </div>

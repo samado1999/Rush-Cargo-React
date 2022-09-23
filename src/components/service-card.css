@@ -37,8 +37,10 @@
 .service-card-text {
   color: #2F5597;
   align-self: center;
+  font-style: normal;
   margin-top: var(--dl-space-space-unit);
   text-align: center;
+  font-weight: 600;
 }
 
 
