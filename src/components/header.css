@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   display: flex;
-  z-index: 200;
+  z-index: 2;
   position: fixed;
   max-width: 100%;
   align-items: center;
@@ -12,7 +12,6 @@
 .header-header {
   width: 100%;
   display: flex;
-  position: relative;
   max-width: auto;
   align-items: center;
   padding-top: var(--dl-space-space-unit);
@@ -118,12 +117,7 @@
   flex-direction: column;
   justify-content: flex-end;
 }
-.header-root-class-name {
-  top: 0px;
-  left: 0px;
-  height: auto;
-  position: static;
-}
+
 @media(max-width: 767px) {
   .header-header {
     padding-left: var(--dl-space-space-twounits);
