@@ -117,12 +117,7 @@
   flex-direction: column;
   justify-content: flex-end;
 }
-.header-root-class-name {
-  top: 0px;
-  left: 0px;
-  height: auto;
-  position: absolute;
-}
+
 @media(max-width: 767px) {
   .header-header {
     padding-left: var(--dl-space-space-twounits);
