@@ -36,7 +36,7 @@
 .form-card-text {
   width: 20%;
 }
-.form-card-textinput {
+.form-card-input {
   width: 80%;
 }
 .form-card-container4 {
@@ -50,7 +50,7 @@
 .form-card-text1 {
   width: 20%;
 }
-.form-card-textinput1 {
+.form-card-textinput {
   width: 80%;
 }
 .form-card-container5 {
@@ -72,8 +72,8 @@
 }
 @media(max-width: 479px) {
   .form-card-container {
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
     flex-direction: column;
   }
   .form-card-container3 {
@@ -84,7 +84,7 @@
     align-self: flex-start;
     text-align: left;
   }
-  .form-card-textinput {
+  .form-card-input {
     width: 100%;
   }
   .form-card-container4 {
@@ -95,7 +95,7 @@
     align-self: flex-start;
     text-align: left;
   }
-  .form-card-textinput1 {
+  .form-card-textinput {
     width: 100%;
   }
   .form-card-container5 {

@@ -9,12 +9,16 @@
   justify-content: center;
 }
 .text-card-text {
-  font-size: 20px;
+  font-size: 19px;
+  align-self: flex-start;
   font-style: normal;
+  text-align: left;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-twounits);
 }
-
+.text-card-root-class-name {
+  align-self: flex-start;
+}
 @media(max-width: 885px) {
   .text-card-root-class-name {
     align-self: flex-start;

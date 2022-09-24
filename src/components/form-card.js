@@ -14,7 +14,7 @@ const FormCard = (props) => {
           <input
             type="text"
             placeholder={props.textinput_placeholder}
-            className="form-card-textinput input"
+            className="form-card-input input"
           />
         </div>
         <div className="form-card-container4">
@@ -22,7 +22,7 @@ const FormCard = (props) => {
           <input
             type="text"
             placeholder={props.textinput_placeholder1}
-            className="form-card-textinput1 input"
+            className="form-card-textinput input"
           />
         </div>
         <div className="form-card-container5">

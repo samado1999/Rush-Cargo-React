@@ -11,13 +11,16 @@
 .solution-card-text {
   color: #2F5597;
   font-size: 43px;
+  align-self: flex-start;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
   text-align: left;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-twounits);
 }
-
+.solution-card-root-class-name {
+  align-self: flex-start;
+}
 @media(max-width: 885px) {
   .solution-card-root-class-name {
     align-self: flex-start;
