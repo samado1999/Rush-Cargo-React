@@ -33,6 +33,8 @@
 @media(max-width: 479px) {
   .service-method-card-container1 {
     margin-top: var(--dl-space-space-fiveunits);
+    padding-left: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-fiveunits);
+    padding-right: var(--dl-space-space-unit);
   }
 }

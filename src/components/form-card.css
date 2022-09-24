@@ -56,8 +56,9 @@
 }
 @media(max-width: 479px) {
   .form-card-container {
-    padding-left: var(--dl-space-space-fourunits);
-    padding-right: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+    flex-direction: column;
   }
   .form-card-container1 {
     flex-direction: column;
