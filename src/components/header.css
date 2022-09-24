@@ -4,7 +4,6 @@
   display: flex;
   z-index: 2;
   position: fixed;
-  max-width: 100%;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -62,7 +61,7 @@
   display: none;
   padding: 32px;
   z-index: 100;
-  position: absolute;
+  position: fixed;
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
@@ -117,7 +116,9 @@
   flex-direction: column;
   justify-content: flex-end;
 }
-
+.header-root-class-name {
+  height: auto;
+}
 @media(max-width: 767px) {
   .header-header {
     padding-left: var(--dl-space-space-twounits);
