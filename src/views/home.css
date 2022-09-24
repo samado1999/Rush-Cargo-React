@@ -46,7 +46,7 @@
   object-fit: cover;
 }
 .home-icon-group {
-  display: flex;
+  display: none;
 }
 .home-icon {
   width: 24px;
