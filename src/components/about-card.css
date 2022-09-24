@@ -27,6 +27,7 @@
 @media(max-width: 479px) {
   .about-card-root-class-name {
     width: 100%;
+    margin-bottom: var(--dl-space-space-twounits);
   }
   .about-card-root-class-name1 {
     width: 100%;
