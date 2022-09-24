@@ -7,10 +7,8 @@ import './about-card.css'
 const AboutCard = (props) => {
   return (
     <div className={`about-card-container ${props.rootClassName} `}>
-      <div className="about-card-container1">
-        <h1 className="about-card-text">{props.heading}</h1>
-        <span className="about-card-text1">{props.text}</span>
-      </div>
+      <h1 className="about-card-text">{props.heading}</h1>
+      <span className="about-card-text1">{props.text}</span>
     </div>
   )
 }

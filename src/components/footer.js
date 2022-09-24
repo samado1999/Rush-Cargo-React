@@ -8,17 +8,13 @@ const Footer = (props) => {
   return (
     <div className={`footer-container ${props.rootClassName} `}>
       <footer className="footer-footer">
-        <div className="footer-container1">
-          <img
-            alt="logo"
-            src="/playground_assets/rush-icon-200h.png"
-            className="footer-image"
-          />
-        </div>
+        <img
+          alt="logo"
+          src="/playground_assets/rush-icon-200h.png"
+          className="footer-image"
+        />
         <div className="footer-separator"></div>
-        <div className="footer-container2">
-          <span className="footer-text">© 2022 Rush Cargo.</span>
-        </div>
+        <span className="footer-text">© 2022 Rush Cargo.</span>
       </footer>
       <img
         alt={props.image_alt}

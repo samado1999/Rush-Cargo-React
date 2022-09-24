@@ -5,12 +5,6 @@
   position: relative;
   flex-direction: column;
 }
-.call-to-action-whats-app-container1 {
-  flex: 0 0 auto;
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-}
 .call-to-action-whats-app-icon {
   fill: #2F5597;
   width: 100px;

@@ -4,12 +4,28 @@
   display: flex;
   position: relative;
   align-items: center;
-  padding-left: var(--dl-space-space-sixunits);
-  padding-right: var(--dl-space-space-sixunits);
-  flex-direction: column;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
   justify-content: center;
 }
 .form-card-container1 {
+  flex: 0 0 auto;
+  width: 30%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.form-card-container2 {
+  flex: 0 0 auto;
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.form-card-container3 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -23,7 +39,7 @@
 .form-card-textinput {
   width: 80%;
 }
-.form-card-container2 {
+.form-card-container4 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -37,7 +53,7 @@
 .form-card-textinput1 {
   width: 80%;
 }
-.form-card-container3 {
+.form-card-container5 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -60,7 +76,7 @@
     padding-right: var(--dl-space-space-threeunits);
     flex-direction: column;
   }
-  .form-card-container1 {
+  .form-card-container3 {
     flex-direction: column;
   }
   .form-card-text {
@@ -71,7 +87,7 @@
   .form-card-textinput {
     width: 100%;
   }
-  .form-card-container2 {
+  .form-card-container4 {
     flex-direction: column;
   }
   .form-card-text1 {
@@ -82,7 +98,7 @@
   .form-card-textinput1 {
     width: 100%;
   }
-  .form-card-container3 {
+  .form-card-container5 {
     flex-direction: column;
   }
   .form-card-text2 {

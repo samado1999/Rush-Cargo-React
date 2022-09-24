@@ -5,16 +5,10 @@
   flex-direction: column;
   justify-content: center;
 }
-.about-card-container1 {
-  display: flex;
-  align-self: center;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-}
 .about-card-text {
   color: #515151;
   font-size: 36px;
+  align-self: flex-start;
   font-style: normal;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
@@ -22,17 +16,13 @@
 .about-card-text1 {
   color: #515151;
   font-size: 17px;
+  align-self: flex-start;
 }
 .about-card-root-class-name {
   width: 50%;
 }
 .about-card-root-class-name1 {
   width: 50%;
-}
-@media(max-width: 885px) {
-  .about-card-container1 {
-    margin-bottom: var(--dl-space-space-twounits);
-  }
 }
 @media(max-width: 479px) {
   .about-card-root-class-name {

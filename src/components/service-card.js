@@ -8,15 +8,13 @@ const ServiceCard = (props) => {
   return (
     <div className={`service-card-container ${props.rootClassName} `}>
       <div className="service-card-container1">
-        <div className="service-card-container2">
-          <img
-            alt={props.image_alt}
-            src={props.image_src}
-            className="service-card-image"
-          />
-        </div>
-        <h1 className="service-card-text">{props.heading}</h1>
+        <img
+          alt={props.image_alt}
+          src={props.image_src}
+          className="service-card-image"
+        />
       </div>
+      <h1 className="service-card-text">{props.heading}</h1>
     </div>
   )
 }
