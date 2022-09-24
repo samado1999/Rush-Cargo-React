@@ -1,11 +1,10 @@
 .header-container {
   width: 100%;
-  height: auto;
   display: flex;
   z-index: 2;
   position: fixed;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 .header-header {
@@ -61,7 +60,7 @@
   display: none;
   padding: 32px;
   z-index: 100;
-  position: fixed;
+  position: absolute;
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
