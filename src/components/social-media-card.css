@@ -61,6 +61,11 @@
   display: none;
 }
 
+@media(max-width: 885px) {
+  .social-media-card-container1 {
+    display: flex;
+  }
+}
 @media(max-width: 479px) {
   .social-media-card-container {
     flex-direction: column;

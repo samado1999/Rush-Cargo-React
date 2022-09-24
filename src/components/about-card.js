@@ -16,15 +16,15 @@ const AboutCard = (props) => {
 }
 
 AboutCard.defaultProps = {
+  rootClassName: '',
   heading: 'Nuestra historia',
   text: 'Rush Cargo se fundó hace más de 20 años con el propósito de brindar soluciones a todas las personas y empresas que amplían su mercado de posibilidades en el exterior, ofreciendo el servicio personalizado más confiable en la traída y envío de mercancían a nivel internacional.',
-  rootClassName: '',
 }
 
 AboutCard.propTypes = {
+  rootClassName: PropTypes.string,
   heading: PropTypes.string,
   text: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default AboutCard

@@ -1,0 +1,95 @@
+.form-card-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  justify-content: center;
+}
+.form-card-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: center;
+}
+.form-card-text {
+  width: 20%;
+}
+.form-card-textinput {
+  width: 80%;
+}
+.form-card-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: center;
+}
+.form-card-text1 {
+  width: 20%;
+}
+.form-card-textinput1 {
+  width: 80%;
+}
+.form-card-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.form-card-text2 {
+  width: 20%;
+}
+.form-card-textarea {
+  width: 80%;
+}
+.form-card-root-class-name {
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+@media(max-width: 479px) {
+  .form-card-container {
+    padding-left: var(--dl-space-space-fourunits);
+    padding-right: var(--dl-space-space-fourunits);
+  }
+  .form-card-container1 {
+    flex-direction: column;
+  }
+  .form-card-text {
+    width: 100%;
+    align-self: flex-start;
+    text-align: left;
+  }
+  .form-card-textinput {
+    width: 100%;
+  }
+  .form-card-container2 {
+    flex-direction: column;
+  }
+  .form-card-text1 {
+    width: 100%;
+    align-self: flex-start;
+    text-align: left;
+  }
+  .form-card-textinput1 {
+    width: 100%;
+  }
+  .form-card-container3 {
+    flex-direction: column;
+  }
+  .form-card-text2 {
+    width: 100%;
+    align-self: flex-start;
+    text-align: left;
+  }
+  .form-card-textarea {
+    width: 100%;
+  }
+}

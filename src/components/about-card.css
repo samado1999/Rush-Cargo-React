@@ -23,10 +23,22 @@
   color: #515151;
   font-size: 17px;
 }
-
-
+.about-card-root-class-name {
+  width: 50%;
+}
+.about-card-root-class-name1 {
+  width: 50%;
+}
 @media(max-width: 885px) {
   .about-card-container1 {
     margin-bottom: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .about-card-root-class-name {
+    width: 100%;
+  }
+  .about-card-root-class-name1 {
+    width: 100%;
   }
 }
