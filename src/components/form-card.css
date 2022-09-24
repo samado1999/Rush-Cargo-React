@@ -18,14 +18,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.form-card-container2 {
-  flex: 0 0 auto;
+.form-card-form {
   width: 70%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  height: auto;
 }
-.form-card-container3 {
+.form-card-container2 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -39,7 +36,7 @@
 .form-card-input {
   width: 80%;
 }
-.form-card-container4 {
+.form-card-container3 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -53,7 +50,7 @@
 .form-card-textinput {
   width: 80%;
 }
-.form-card-container5 {
+.form-card-container4 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -76,7 +73,7 @@
     padding-right: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .form-card-container3 {
+  .form-card-container2 {
     flex-direction: column;
   }
   .form-card-text {
@@ -87,7 +84,7 @@
   .form-card-input {
     width: 100%;
   }
-  .form-card-container4 {
+  .form-card-container3 {
     flex-direction: column;
   }
   .form-card-text1 {
@@ -98,7 +95,7 @@
   .form-card-textinput {
     width: 100%;
   }
-  .form-card-container5 {
+  .form-card-container4 {
     flex-direction: column;
   }
   .form-card-text2 {

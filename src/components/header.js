@@ -2,6 +2,7 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
+import SideBar from './side-bar'
 import CallToActionWhatsApp from './call-to-action-whats-app'
 import './header.css'
 
@@ -62,6 +63,10 @@ const Header = (props) => {
                 </svg>
               </div>
             </div>
+            <SideBar
+              rootClassName="side-bar-root-class-name"
+              className=""
+            ></SideBar>
           </nav>
           <div className="header-icon-group1">
             <svg viewBox="0 0 877.7142857142857 1024" className="header-icon10">
