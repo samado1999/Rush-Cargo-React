@@ -107,16 +107,16 @@ const Header = (props) => {
 
 Header.defaultProps = {
   image_alt1: 'image',
+  rootClassName1: '',
   image_src1: '/playground_assets/rush-icon-2-200h.png',
   rootClassName: '',
-  rootClassName1: '',
 }
 
 Header.propTypes = {
   image_alt1: PropTypes.string,
+  rootClassName1: PropTypes.string,
   image_src1: PropTypes.string,
   rootClassName: PropTypes.string,
-  rootClassName1: PropTypes.string,
 }
 
 export default Header
