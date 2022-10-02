@@ -33,6 +33,21 @@ const Home = (props) => {
             src="/playground_assets/rush-icon-2-200h.png"
             className="home-image1"
           />
+          <nav className="home-nav">
+            <a href="#home" className="home-link">
+              Inicio
+            </a>
+            <a href="#about" className="home-link1">
+              Sobre nosotros
+            </a>
+            <a href="#services" className="home-link2">
+              Servicios
+            </a>
+            <a href="#contact" className="home-link3">
+              Contactos
+            </a>
+            <span className="home-text">Blog</span>
+          </nav>
           <div className="home-icon-group">
             <svg viewBox="0 0 877.7142857142857 1024" className="home-icon">
               <path d="M562.857 556.571c9.714 0 102.857 48.571 106.857 55.429 1.143 2.857 1.143 6.286 1.143 8.571 0 14.286-4.571 30.286-9.714 43.429-13.143 32-66.286 52.571-98.857 52.571-27.429 0-84-24-108.571-35.429-81.714-37.143-132.571-100.571-181.714-173.143-21.714-32-41.143-71.429-40.571-110.857v-4.571c1.143-37.714 14.857-64.571 42.286-90.286 8.571-8 17.714-12.571 29.714-12.571 6.857 0 13.714 1.714 21.143 1.714 15.429 0 18.286 4.571 24 19.429 4 9.714 33.143 87.429 33.143 93.143 0 21.714-39.429 46.286-39.429 59.429 0 2.857 1.143 5.714 2.857 8.571 12.571 26.857 36.571 57.714 58.286 78.286 26.286 25.143 54.286 41.714 86.286 57.714 4 2.286 8 4 12.571 4 17.143 0 45.714-55.429 60.571-55.429zM446.857 859.429c197.714 0 358.857-161.143 358.857-358.857s-161.143-358.857-358.857-358.857-358.857 161.143-358.857 358.857c0 75.429 24 149.143 68.571 210.286l-45.143 133.143 138.286-44c58.286 38.286 127.429 59.429 197.143 59.429zM446.857 69.714c237.714 0 430.857 193.143 430.857 430.857s-193.143 430.857-430.857 430.857c-72.571 0-144.571-18.286-208.571-53.714l-238.286 76.571 77.714-231.429c-40.571-66.857-61.714-144-61.714-222.286 0-237.714 193.143-430.857 430.857-430.857z"></path>
@@ -50,7 +65,7 @@ const Home = (props) => {
             </div>
           </div>
           <div data-type="MobileMenu" className="home-mobile-menu">
-            <nav className="home-nav">
+            <nav className="home-nav1">
               <div className="home-container02">
                 <img
                   alt="image"
@@ -68,18 +83,18 @@ const Home = (props) => {
               </div>
               <div className="home-container03">
                 <div className="home-sidebar">
-                  <nav className="home-nav1">
-                    <span className="home-text">Inicio</span>
-                    <span className="home-text01">
+                  <nav className="home-nav2">
+                    <span className="home-text01">Inicio</span>
+                    <span className="home-text02">
                       <span>Sobre nosotros</span>
                       <br></br>
                     </span>
-                    <span className="home-text04">
+                    <span className="home-text05">
                       <span>Servicios</span>
                       <br></br>
                     </span>
-                    <span className="home-text07">Contactos</span>
-                    <span className="home-text08">Blog</span>
+                    <span className="home-text08">Contactos</span>
+                    <span className="home-text09">Blog</span>
                   </nav>
                   <div className="home-icon-group1">
                     <svg
@@ -140,7 +155,7 @@ const Home = (props) => {
       </div>
       <div className="home-container09">
         <button className="home-button button">¡Contactar!</button>
-        <span className="home-text09">
+        <span className="home-text10">
           <span>Solicita tu asesoría personalizada</span>
           <br></br>
         </span>
@@ -177,8 +192,8 @@ const Home = (props) => {
             </svg>
           </div>
           <div className="home-container15">
-            <h1 className="home-text12">Personalización</h1>
-            <span className="home-text13">
+            <h1 className="home-text13">Personalización</h1>
+            <span className="home-text14">
               <span>
                 Contamos con una amplia experiencia en el manejo de mercancías y
                 podemos ayudarte a traer eso que necesitas sin problemas ni
@@ -195,11 +210,11 @@ const Home = (props) => {
             </svg>
           </div>
           <div className="home-container18">
-            <h1 className="home-text16">
+            <h1 className="home-text17">
               <span>Envío hasta tu puerta</span>
               <br></br>
             </h1>
-            <span className="home-text19">
+            <span className="home-text20">
               <span>
                 Te entregamos todos tus envíos hasta la puerta de tu casa u
                 oficina.
@@ -215,11 +230,11 @@ const Home = (props) => {
             </svg>
           </div>
           <div className="home-container21">
-            <h1 className="home-text22">
+            <h1 className="home-text23">
               <span>Seguro de mercancía</span>
               <br></br>
             </h1>
-            <span className="home-text25">
+            <span className="home-text26">
               <span>
                 Manejamos diferentes tipos de seguros para que tus productos
                 siempre estén protegidos.
@@ -230,7 +245,7 @@ const Home = (props) => {
         </div>
       </div>
       <div id="services" className="home-container22">
-        <h1 className="home-text28">
+        <h1 className="home-text29">
           <span>Nuestros servicios</span>
           <br></br>
         </h1>
@@ -258,7 +273,7 @@ const Home = (props) => {
               className="home-image3"
             />
           </div>
-          <h1 className="home-text31">
+          <h1 className="home-text32">
             <span>Seguros Carga</span>
             <br></br>
           </h1>
@@ -266,7 +281,7 @@ const Home = (props) => {
       </div>
       <SocialMediaCard rootClassName="social-media-card-root-class-name1"></SocialMediaCard>
       <div className="home-container26">
-        <span className="home-text34">
+        <span className="home-text35">
           <span>Síguenos en redes sociales</span>
           <br></br>
         </span>

@@ -45,8 +45,45 @@
   width: 100px;
   object-fit: cover;
 }
-.home-icon-group {
+.home-nav {
+  flex: 0 0 auto;
   display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.home-link {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.home-link1 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-link2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-link3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-text {
+  display: none;
+  margin-left: var(--dl-space-space-twounits);
+}
+.home-icon-group {
+  display: none;
 }
 .home-icon {
   width: 24px;
@@ -87,7 +124,7 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.home-nav {
+.home-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -129,24 +166,24 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.home-nav1 {
+.home-nav2 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text {
-  margin-bottom: var(--dl-space-space-threeunits);
-}
 .home-text01 {
   margin-bottom: var(--dl-space-space-threeunits);
 }
-.home-text04 {
+.home-text02 {
   margin-bottom: var(--dl-space-space-threeunits);
 }
-.home-text07 {
+.home-text05 {
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .home-text08 {
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.home-text09 {
   display: none;
 }
 .home-icon-group1 {
@@ -251,7 +288,7 @@
   padding-bottom: 30px;
   background-color: #0F539A;
 }
-.home-text09 {
+.home-text10 {
   color: rgb(87, 87, 87);
   margin-top: var(--dl-space-space-unit);
 }
@@ -316,14 +353,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text12 {
+.home-text13 {
   color: rgb(81, 81, 81);
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text13 {
+.home-text14 {
   color: rgb(81, 81, 81);
   font-size: 18px;
 }
@@ -359,14 +396,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text16 {
+.home-text17 {
   color: rgb(81, 81, 81);
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text19 {
+.home-text20 {
   color: rgb(81, 81, 81);
   font-size: 18px;
 }
@@ -402,14 +439,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text22 {
+.home-text23 {
   color: rgb(81, 81, 81);
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text25 {
+.home-text26 {
   color: rgb(81, 81, 81);
   font-size: 18px;
 }
@@ -422,7 +459,7 @@
   align-items: center;
   justify-content: center;
 }
-.home-text28 {
+.home-text29 {
   color: rgb(47, 85, 151);
   font-size: 48px;
   font-style: normal;
@@ -469,7 +506,7 @@
   align-self: center;
   object-fit: cover;
 }
-.home-text31 {
+.home-text32 {
   color: rgb(47, 85, 151);
   font-size: 30px;
   align-self: center;
@@ -487,7 +524,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text34 {
+.home-text35 {
   color: #575757;
   font-size: 22px;
   text-align: center;
@@ -552,6 +589,31 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .home-nav {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  .home-link {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-link1 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-link2 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-link3 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .home-burger-menu {
     display: flex;
     align-items: center;
@@ -581,6 +643,18 @@
 @media(max-width: 479px) {
   .home-header {
     padding: var(--dl-space-space-unit);
+  }
+  .home-link {
+    font-size: 15px;
+  }
+  .home-link1 {
+    font-size: 15px;
+  }
+  .home-link2 {
+    font-size: 15px;
+  }
+  .home-link3 {
+    font-size: 15px;
   }
   .home-mobile-menu {
     padding: 16px;
