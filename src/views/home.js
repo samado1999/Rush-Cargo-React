@@ -292,7 +292,31 @@ const Home = (props) => {
         </span>
       </div>
       <div id="contact" className="home-container28">
-        <FormCard rootClassName="form-card-root-class-name"></FormCard>
+        <div className="home-container29">
+          <h1 className="home-text34">Dirección:</h1>
+          <span className="home-text35">
+            <span>5055 NW 74 AVE</span>
+            <br></br>
+            <span>SUITE 8</span>
+            <br></br>
+            <span>MIAMI, FL</span>
+            <br></br>
+            <span>33166</span>
+            <br></br>
+            <span>EE. UU.</span>
+          </span>
+          <h1 className="home-text45">Teléfono:</h1>
+          <span className="home-text46">
+            <span>+1 305 888 18 68</span>
+            <br></br>
+            <span>+57 601 7816784</span>
+            <br></br>
+            <span>+57 316 833 1920</span>
+          </span>
+        </div>
+        <div className="home-container30">
+          <FormCard rootClassName="form-card-root-class-name"></FormCard>
+        </div>
       </div>
       <Footer rootClassName="footer-root-class-name"></Footer>
     </div>

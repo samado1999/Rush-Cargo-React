@@ -7,9 +7,8 @@ import './form-card.css'
 const FormCard = (props) => {
   return (
     <div className={`form-card-container ${props.rootClassName} `}>
-      <div className="form-card-container1"></div>
       <form className="form-card-form">
-        <div className="form-card-container2">
+        <div className="form-card-container1">
           <span className="form-card-text">{props.text}</span>
           <input
             type="text"
@@ -17,7 +16,7 @@ const FormCard = (props) => {
             className="form-card-input input"
           />
         </div>
-        <div className="form-card-container3">
+        <div className="form-card-container2">
           <span className="form-card-text1">{props.text1}</span>
           <input
             type="text"
@@ -25,7 +24,7 @@ const FormCard = (props) => {
             className="form-card-textinput input"
           />
         </div>
-        <div className="form-card-container4">
+        <div className="form-card-container3">
           <span className="form-card-text2">{props.text2}</span>
           <textarea
             placeholder={props.textarea_placeholder}
