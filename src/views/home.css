@@ -597,6 +597,7 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .home-nav {
+    display: none;
     align-items: flex-start;
     flex-direction: row;
   }
@@ -620,6 +621,9 @@
   .home-text {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-icon-group {
+    display: flex;
   }
   .home-burger-menu {
     display: flex;
