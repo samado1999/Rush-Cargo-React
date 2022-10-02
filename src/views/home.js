@@ -28,7 +28,7 @@ const Home = (props) => {
       />
       <div id="start" className="home-container01"></div>
       <div className="home-container02">
-        <header data-role="Header" id="header" className="home-header">
+        <header id="header" data-role="Header" className="home-header">
           <img
             alt="image"
             src="/playground_assets/rush-icon-2-200h.png"
