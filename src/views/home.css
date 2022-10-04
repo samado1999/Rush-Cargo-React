@@ -685,15 +685,21 @@
   .home-container10 {
     width: auto;
     flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
     flex-direction: row;
   }
   .home-container13 {
     width: auto;
     flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .home-container16 {
     width: auto;
     flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .home-container19 {
     padding-left: var(--dl-space-space-unit);
