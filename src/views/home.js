@@ -26,8 +26,7 @@ const Home = (props) => {
         src="https://images.unsplash.com/photo-1592963219838-6045ccbe0563?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1fHx0cmFuc3BvcnR8ZW58MHx8fHwxNjYzNzI3NjQ3&amp;ixlib=rb-1.2.1&amp;h=800"
         className="home-image"
       />
-      <div id="start" className="home-container01"></div>
-      <div className="home-container02">
+      <div className="home-container01">
         <header id="header" data-role="Header" className="home-header">
           <img
             alt="image"
@@ -35,7 +34,7 @@ const Home = (props) => {
             className="home-image1"
           />
           <nav className="home-nav">
-            <a href="#start" className="home-link">
+            <a href="#home" className="home-link">
               Inicio
             </a>
             <a href="#about" className="home-link1">
@@ -67,7 +66,7 @@ const Home = (props) => {
           </div>
           <div data-type="MobileMenu" className="home-mobile-menu">
             <nav className="home-nav1">
-              <div className="home-container03">
+              <div className="home-container02">
                 <img
                   alt="image"
                   src="/playground_assets/rush-icon-2-200h.png"
@@ -82,24 +81,22 @@ const Home = (props) => {
                   </svg>
                 </div>
               </div>
-              <div className="home-container04">
+              <div className="home-container03">
                 <div className="home-sidebar">
                   <nav className="home-nav2">
-                    <a href="#start" className="home-link4">
-                      Inicio
-                    </a>
-                    <a href="#about" className="home-link5">
+                    <span className="home-text01">Inicio</span>
+                    <a href="#about" className="home-link4">
                       <span>Sobre nosotros</span>
                       <br></br>
                     </a>
-                    <a href="#services" className="home-link6">
+                    <a href="#services" className="home-link5">
                       <span>Servicios</span>
                       <br></br>
                     </a>
-                    <a href="#contact" className="home-link7">
+                    <a href="#contact" className="home-link6">
                       Contactos
                     </a>
-                    <span className="home-text05">Blog</span>
+                    <span className="home-text06">Blog</span>
                   </nav>
                   <div className="home-icon-group1">
                     <svg
@@ -137,35 +134,35 @@ const Home = (props) => {
             </div>
           </div>
         </header>
-        <div className="home-container05">
+        <div className="home-container04">
           <CallToActionWhatsApp rootClassName="call-to-action-whats-app-root-class-name2"></CallToActionWhatsApp>
         </div>
       </div>
-      <div className="home-container06">
-        <div className="home-container07">
+      <div className="home-container05">
+        <div className="home-container06">
           <CallToActionWhatsApp rootClassName="call-to-action-whats-app-root-class-name1"></CallToActionWhatsApp>
         </div>
       </div>
-      <div id="home" className="home-container08">
+      <div id="home" className="home-container07">
         <SolutionCard
           heading="Todas las soluciones en transporte de mercancía"
           rootClassName="solution-card-root-class-name"
         ></SolutionCard>
       </div>
-      <div className="home-container09">
+      <div className="home-container08">
         <TextCard
           text="Un servicio que te ayuda a traer todas tus compras del exterior"
           rootClassName="text-card-root-class-name"
         ></TextCard>
       </div>
-      <div className="home-container10">
+      <div className="home-container09">
         <button className="home-button button">¡Contactar!</button>
-        <span className="home-text06">
+        <span className="home-text07">
           <span>Solicita tu asesoría personalizada</span>
           <br></br>
         </span>
       </div>
-      <div className="home-container11">
+      <div className="home-container10">
         <HeadingCard
           heading="Experiencia"
           rootClassName="heading-card-root-class-name"
@@ -181,7 +178,7 @@ const Home = (props) => {
       </div>
       <SocialMediaCard rootClassName="social-media-card-root-class-name"></SocialMediaCard>
       <ServiceMethodCard rootClassName="service-method-card-root-class-name"></ServiceMethodCard>
-      <div id="about" className="home-container12">
+      <div id="about" className="home-container11">
         <AboutCard
           text="Es una empresa colombiana que ofrece los servicios de transporte de mercancía a nivel internacional."
           heading="Rush Cargo"
@@ -189,16 +186,16 @@ const Home = (props) => {
         ></AboutCard>
         <AboutCard rootClassName="about-card-root-class-name1"></AboutCard>
       </div>
-      <div className="home-container13">
-        <div className="home-container14">
-          <div className="home-container15">
+      <div className="home-container12">
+        <div className="home-container13">
+          <div className="home-container14">
             <svg viewBox="0 0 1024 1024" className="home-icon22">
               <path d="M682 554q56 0 122 16t122 52 56 82v106h-256v-106q0-88-84-148 14-2 40-2zM342 554q56 0 122 16t121 52 55 82v106h-598v-106q0-46 56-82t122-52 122-16zM342 470q-52 0-90-38t-38-90 38-90 90-38 89 38 37 90-37 90-89 38zM682 470q-52 0-90-38t-38-90 38-90 90-38 90 38 38 90-38 90-90 38z"></path>
             </svg>
           </div>
-          <div className="home-container16">
-            <h1 className="home-text09">Personalización</h1>
-            <span className="home-text10">
+          <div className="home-container15">
+            <h1 className="home-text10">Personalización</h1>
+            <span className="home-text11">
               <span>
                 Contamos con una amplia experiencia en el manejo de mercancías y
                 podemos ayudarte a traer eso que necesitas sin problemas ni
@@ -208,18 +205,18 @@ const Home = (props) => {
             </span>
           </div>
         </div>
-        <div className="home-container17">
-          <div className="home-container18">
+        <div className="home-container16">
+          <div className="home-container17">
             <svg viewBox="0 0 1060.5714285714284 1024" className="home-icon24">
               <path d="M365.714 804.571c0-40-33.143-73.143-73.143-73.143s-73.143 33.143-73.143 73.143 33.143 73.143 73.143 73.143 73.143-33.143 73.143-73.143zM146.286 512h219.429v-146.286h-90.286c-2.286 0-10.857 3.429-12.571 5.143l-111.429 111.429c-1.714 1.714-5.143 10.286-5.143 12.571v17.143zM877.714 804.571c0-40-33.143-73.143-73.143-73.143s-73.143 33.143-73.143 73.143 33.143 73.143 73.143 73.143 73.143-33.143 73.143-73.143zM1024 182.857v585.143c0 42.286-44.571 36.571-73.143 36.571 0 80.571-65.714 146.286-146.286 146.286s-146.286-65.714-146.286-146.286h-219.429c0 80.571-65.714 146.286-146.286 146.286s-146.286-65.714-146.286-146.286h-36.571c-28.571 0-73.143 5.714-73.143-36.571 0-20 16.571-36.571 36.571-36.571v-182.857c0-40.571-5.714-85.714 25.714-117.143l113.143-113.143c14.286-14.286 41.714-25.714 62.286-25.714h91.429v-109.714c0-20 16.571-36.571 36.571-36.571h585.143c20 0 36.571 16.571 36.571 36.571z"></path>
             </svg>
           </div>
-          <div className="home-container19">
-            <h1 className="home-text13">
+          <div className="home-container18">
+            <h1 className="home-text14">
               <span>Envío hasta tu puerta</span>
               <br></br>
             </h1>
-            <span className="home-text16">
+            <span className="home-text17">
               <span>
                 Te entregamos todos tus envíos hasta la puerta de tu casa u
                 oficina.
@@ -228,18 +225,18 @@ const Home = (props) => {
             </span>
           </div>
         </div>
-        <div className="home-container20">
-          <div className="home-container21">
+        <div className="home-container19">
+          <div className="home-container20">
             <svg viewBox="0 0 658.2857142857142 1024" className="home-icon26">
               <path d="M182.857 438.857h292.571v-109.714c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286v109.714zM658.286 493.714v329.143c0 30.286-24.571 54.857-54.857 54.857h-548.571c-30.286 0-54.857-24.571-54.857-54.857v-329.143c0-30.286 24.571-54.857 54.857-54.857h18.286v-109.714c0-140.571 115.429-256 256-256s256 115.429 256 256v109.714h18.286c30.286 0 54.857 24.571 54.857 54.857z"></path>
             </svg>
           </div>
-          <div className="home-container22">
-            <h1 className="home-text19">
+          <div className="home-container21">
+            <h1 className="home-text20">
               <span>Seguro de mercancía</span>
               <br></br>
             </h1>
-            <span className="home-text22">
+            <span className="home-text23">
               <span>
                 Manejamos diferentes tipos de seguros para que tus productos
                 siempre estén protegidos.
@@ -249,13 +246,13 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div id="services" className="home-container23">
-        <h1 className="home-text25">
+      <div id="services" className="home-container22">
+        <h1 className="home-text26">
           <span>Nuestros servicios</span>
           <br></br>
         </h1>
       </div>
-      <div className="home-container24">
+      <div className="home-container23">
         <ServiceCard
           heading="Courier"
           image_src="/playground_assets/airplane-200h.png"
@@ -270,31 +267,31 @@ const Home = (props) => {
           heading="Urbanos"
           rootClassName="service-card-root-class-name"
         ></ServiceCard>
-        <div className="home-container25">
-          <div className="home-container26">
+        <div className="home-container24">
+          <div className="home-container25">
             <img
               alt="image"
               src="/playground_assets/container-200h.png"
               className="home-image3"
             />
           </div>
-          <h1 className="home-text28">
+          <h1 className="home-text29">
             <span>Seguros Carga</span>
             <br></br>
           </h1>
         </div>
       </div>
       <SocialMediaCard rootClassName="social-media-card-root-class-name1"></SocialMediaCard>
-      <div className="home-container27">
-        <span className="home-text31">
+      <div className="home-container26">
+        <span className="home-text32">
           <span>Síguenos en redes sociales</span>
           <br></br>
         </span>
       </div>
-      <div id="contact" className="home-container28">
-        <div className="home-container29">
-          <h1 className="home-text34">Dirección:</h1>
-          <span className="home-text35">
+      <div id="contact" className="home-container27">
+        <div className="home-container28">
+          <h1 className="home-text35">Dirección:</h1>
+          <span className="home-text36">
             <span>5055 NW 74 AVE</span>
             <br></br>
             <span>SUITE 8</span>
@@ -305,8 +302,8 @@ const Home = (props) => {
             <br></br>
             <span>EE. UU.</span>
           </span>
-          <h1 className="home-text45">Teléfono:</h1>
-          <span className="home-text46">
+          <h1 className="home-text46">Teléfono:</h1>
+          <span className="home-text47">
             <span>+1 305 888 18 68</span>
             <br></br>
             <span>+57 601 7816784</span>
@@ -314,7 +311,7 @@ const Home = (props) => {
             <span>+57 316 833 1920</span>
           </span>
         </div>
-        <div className="home-container30">
+        <div className="home-container29">
           <FormCard rootClassName="form-card-root-class-name"></FormCard>
         </div>
       </div>
