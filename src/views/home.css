@@ -171,10 +171,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text01 {
-  margin-bottom: var(--dl-space-space-threeunits);
-  text-decoration: none;
-}
 .home-link4 {
   margin-bottom: var(--dl-space-space-threeunits);
   text-decoration: none;
@@ -187,7 +183,11 @@
   margin-bottom: var(--dl-space-space-threeunits);
   text-decoration: none;
 }
-.home-text06 {
+.home-link7 {
+  margin-bottom: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}
+.home-text05 {
   display: none;
 }
 .home-icon-group1 {
@@ -292,7 +292,7 @@
   padding-bottom: 30px;
   background-color: #0F539A;
 }
-.home-text07 {
+.home-text06 {
   color: rgb(87, 87, 87);
   margin-top: var(--dl-space-space-unit);
 }
@@ -357,14 +357,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text10 {
+.home-text09 {
   color: rgb(81, 81, 81);
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text11 {
+.home-text10 {
   color: rgb(81, 81, 81);
   font-size: 18px;
 }
@@ -400,14 +400,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text14 {
+.home-text13 {
   color: rgb(81, 81, 81);
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text17 {
+.home-text16 {
   color: rgb(81, 81, 81);
   font-size: 18px;
 }
@@ -443,14 +443,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text20 {
+.home-text19 {
   color: rgb(81, 81, 81);
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text23 {
+.home-text22 {
   color: rgb(81, 81, 81);
   font-size: 18px;
 }
@@ -463,7 +463,7 @@
   align-items: center;
   justify-content: center;
 }
-.home-text26 {
+.home-text25 {
   color: rgb(47, 85, 151);
   font-size: 48px;
   font-style: normal;
@@ -510,7 +510,7 @@
   align-self: center;
   object-fit: cover;
 }
-.home-text29 {
+.home-text28 {
   color: rgb(47, 85, 151);
   font-size: 30px;
   align-self: center;
@@ -528,7 +528,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text32 {
+.home-text31 {
   color: #575757;
   font-size: 22px;
   text-align: center;
@@ -553,23 +553,23 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text35 {
+.home-text34 {
   color: #515151;
   font-size: 26px;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text36 {
+.home-text35 {
   color: rgb(81, 81, 81);
   font-size: 20px;
   line-height: 1.3;
 }
-.home-text46 {
+.home-text45 {
   color: #515151;
   font-size: 26px;
   margin-top: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text47 {
+.home-text46 {
   color: rgb(81, 81, 81);
   font-size: 20px;
   line-height: 1.3;

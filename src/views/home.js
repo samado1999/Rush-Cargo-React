@@ -84,19 +84,21 @@ const Home = (props) => {
               <div className="home-container03">
                 <div className="home-sidebar">
                   <nav className="home-nav2">
-                    <span className="home-text01">Inicio</span>
-                    <a href="#about" className="home-link4">
+                    <a href="#home" className="home-link4">
+                      Inicio
+                    </a>
+                    <a href="#about" className="home-link5">
                       <span>Sobre nosotros</span>
                       <br></br>
                     </a>
-                    <a href="#services" className="home-link5">
+                    <a href="#services" className="home-link6">
                       <span>Servicios</span>
                       <br></br>
                     </a>
-                    <a href="#contact" className="home-link6">
+                    <a href="#contact" className="home-link7">
                       Contactos
                     </a>
-                    <span className="home-text06">Blog</span>
+                    <span className="home-text05">Blog</span>
                   </nav>
                   <div className="home-icon-group1">
                     <svg
@@ -157,7 +159,7 @@ const Home = (props) => {
       </div>
       <div className="home-container09">
         <button className="home-button button">¡Contactar!</button>
-        <span className="home-text07">
+        <span className="home-text06">
           <span>Solicita tu asesoría personalizada</span>
           <br></br>
         </span>
@@ -194,8 +196,8 @@ const Home = (props) => {
             </svg>
           </div>
           <div className="home-container15">
-            <h1 className="home-text10">Personalización</h1>
-            <span className="home-text11">
+            <h1 className="home-text09">Personalización</h1>
+            <span className="home-text10">
               <span>
                 Contamos con una amplia experiencia en el manejo de mercancías y
                 podemos ayudarte a traer eso que necesitas sin problemas ni
@@ -212,11 +214,11 @@ const Home = (props) => {
             </svg>
           </div>
           <div className="home-container18">
-            <h1 className="home-text14">
+            <h1 className="home-text13">
               <span>Envío hasta tu puerta</span>
               <br></br>
             </h1>
-            <span className="home-text17">
+            <span className="home-text16">
               <span>
                 Te entregamos todos tus envíos hasta la puerta de tu casa u
                 oficina.
@@ -232,11 +234,11 @@ const Home = (props) => {
             </svg>
           </div>
           <div className="home-container21">
-            <h1 className="home-text20">
+            <h1 className="home-text19">
               <span>Seguro de mercancía</span>
               <br></br>
             </h1>
-            <span className="home-text23">
+            <span className="home-text22">
               <span>
                 Manejamos diferentes tipos de seguros para que tus productos
                 siempre estén protegidos.
@@ -247,7 +249,7 @@ const Home = (props) => {
         </div>
       </div>
       <div id="services" className="home-container22">
-        <h1 className="home-text26">
+        <h1 className="home-text25">
           <span>Nuestros servicios</span>
           <br></br>
         </h1>
@@ -275,7 +277,7 @@ const Home = (props) => {
               className="home-image3"
             />
           </div>
-          <h1 className="home-text29">
+          <h1 className="home-text28">
             <span>Seguros Carga</span>
             <br></br>
           </h1>
@@ -283,15 +285,15 @@ const Home = (props) => {
       </div>
       <SocialMediaCard rootClassName="social-media-card-root-class-name1"></SocialMediaCard>
       <div className="home-container26">
-        <span className="home-text32">
+        <span className="home-text31">
           <span>Síguenos en redes sociales</span>
           <br></br>
         </span>
       </div>
       <div id="contact" className="home-container27">
         <div className="home-container28">
-          <h1 className="home-text35">Dirección:</h1>
-          <span className="home-text36">
+          <h1 className="home-text34">Dirección:</h1>
+          <span className="home-text35">
             <span>5055 NW 74 AVE</span>
             <br></br>
             <span>SUITE 8</span>
@@ -302,8 +304,8 @@ const Home = (props) => {
             <br></br>
             <span>EE. UU.</span>
           </span>
-          <h1 className="home-text46">Teléfono:</h1>
-          <span className="home-text47">
+          <h1 className="home-text45">Teléfono:</h1>
+          <span className="home-text46">
             <span>+1 305 888 18 68</span>
             <br></br>
             <span>+57 601 7816784</span>
