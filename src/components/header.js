@@ -2,7 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import CallToActionWhatsApp from './call-to-action-whats-app'
 import './header.css'
 
 const Header = (props) => {
@@ -98,9 +97,7 @@ const Header = (props) => {
           </div>
         </div>
       </header>
-      <div className="header-container3">
-        <CallToActionWhatsApp rootClassName="call-to-action-whats-app-root-class-name"></CallToActionWhatsApp>
-      </div>
+      <div className="header-container3"></div>
     </div>
   )
 }

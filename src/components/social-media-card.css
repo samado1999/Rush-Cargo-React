@@ -57,9 +57,6 @@
   width: 70px;
   height: 70px;
 }
-.social-media-card-root-class-name {
-  display: none;
-}
 
 @media(max-width: 885px) {
   .social-media-card-container1 {
