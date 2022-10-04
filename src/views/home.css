@@ -185,8 +185,8 @@
   position: relative;
   margin-top: 120px;
   align-items: center;
-  padding-left: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
   flex-direction: column;
 }
 .home-container05 {
@@ -194,8 +194,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding-left: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
   flex-direction: column;
 }
 .home-container06 {
@@ -205,7 +205,9 @@
   display: flex;
   margin-top: var(--dl-space-space-threeunits);
   align-items: center;
+  padding-left: var(--dl-space-space-sixunits);
   margin-bottom: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-sixunits);
   flex-direction: column;
   justify-content: center;
 }
@@ -219,7 +221,7 @@
   border-width: 0px;
   border-radius: 100px;
   padding-bottom: 30px;
-  background-color: #0F539A;
+  background-color: #2F5597;
 }
 .home-text06 {
   color: rgb(87, 87, 87);
@@ -231,6 +233,8 @@
   height: auto;
   display: flex;
   align-items: center;
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
   justify-content: center;
 }
 .home-container08 {
@@ -239,9 +243,9 @@
   display: flex;
   margin-top: var(--dl-space-space-twounits);
   align-items: center;
-  padding-left: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-sixunits);
   margin-bottom: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-sixunits);
   justify-content: center;
 }
 .home-container09 {
@@ -250,8 +254,8 @@
   height: auto;
   display: flex;
   align-items: center;
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
   justify-content: flex-start;
 }
 .home-container10 {
@@ -388,8 +392,10 @@
   width: 100%;
   height: auto;
   display: flex;
-  margin-top: var(--dl-space-space-fiveunits);
+  margin-top: var(--dl-space-space-twounits);
   align-items: center;
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
   justify-content: center;
 }
 .home-text25 {
@@ -404,8 +410,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding-left: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
   flex-direction: row;
   justify-content: center;
 }
@@ -453,7 +459,11 @@
   width: 100%;
   height: auto;
   display: flex;
+  margin-top: var(--dl-space-space-unit);
   align-items: center;
+  padding-left: var(--dl-space-space-sixunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-sixunits);
   flex-direction: column;
   justify-content: center;
 }
@@ -468,7 +478,9 @@
   display: flex;
   margin-top: var(--dl-space-space-twounits);
   align-items: flex-start;
+  padding-left: var(--dl-space-space-sixunits);
   margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-sixunits);
   flex-direction: row;
   justify-content: flex-start;
 }
@@ -654,6 +666,10 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
+  .home-container06 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
   .home-container07 {
     padding: var(--dl-space-space-unit);
   }
@@ -679,7 +695,15 @@
     width: auto;
     flex-wrap: wrap;
   }
+  .home-container19 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
   .home-container20 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .home-container24 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
