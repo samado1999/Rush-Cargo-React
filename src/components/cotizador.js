@@ -39,24 +39,24 @@ const Cotizador = (props) => {
 }
 
 Cotizador.defaultProps = {
-  heading: 'TRM',
-  text: '1',
-  text1: '4300',
-  heading1: 'Cantidad Libras',
   text2: '5',
-  heading2: 'Total (En Pesos)',
+  heading1: 'Cantidad Libras',
   text3: '10',
+  text: '1',
+  heading2: 'Total (En Pesos)',
+  heading: 'TRM',
+  text1: '4300',
   rootClassName: '',
 }
 
 Cotizador.propTypes = {
-  heading: PropTypes.string,
-  text: PropTypes.string,
-  text1: PropTypes.string,
-  heading1: PropTypes.string,
   text2: PropTypes.string,
-  heading2: PropTypes.string,
+  heading1: PropTypes.string,
   text3: PropTypes.string,
+  text: PropTypes.string,
+  heading2: PropTypes.string,
+  heading: PropTypes.string,
+  text1: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
