@@ -80,7 +80,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.cotizador-text5 {
+.cotizador-text4 {
   color: #2F5597;
 }
 .cotizador-container10 {
@@ -91,3 +91,12 @@
   flex-direction: column;
 }
 
+@media(max-width: 479px) {
+  .cotizador-container05 {
+    flex-direction: column;
+  }
+  .cotizador-container07 {
+    align-items: center;
+    flex-direction: column;
+  }
+}

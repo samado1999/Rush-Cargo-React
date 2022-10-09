@@ -23,12 +23,16 @@ const Cotizador = (props) => {
           <h1 className="cotizador-text3">{props.heading1}</h1>
         </div>
         <div className="cotizador-container07">
-          <span className="">{props.text2}</span>
+          <input
+            type="text"
+            placeholder={props.textinput_placeholder}
+            className="input"
+          />
         </div>
       </div>
       <div className="cotizador-container08">
         <div className="cotizador-container09">
-          <h1 className="cotizador-text5">{props.heading2}</h1>
+          <h1 className="cotizador-text4">{props.heading2}</h1>
         </div>
         <div className="cotizador-container10">
           <span className="">{props.text3}</span>
@@ -39,7 +43,6 @@ const Cotizador = (props) => {
 }
 
 Cotizador.defaultProps = {
-  text2: '5',
   heading1: 'Cantidad Libras',
   text3: '10',
   text: '1',
@@ -47,10 +50,10 @@ Cotizador.defaultProps = {
   heading: 'TRM',
   text1: '4300',
   rootClassName: '',
+  textinput_placeholder: 'placeholder',
 }
 
 Cotizador.propTypes = {
-  text2: PropTypes.string,
   heading1: PropTypes.string,
   text3: PropTypes.string,
   text: PropTypes.string,
@@ -58,6 +61,7 @@ Cotizador.propTypes = {
   heading: PropTypes.string,
   text1: PropTypes.string,
   rootClassName: PropTypes.string,
+  textinput_placeholder: PropTypes.string,
 }
 
 export default Cotizador
