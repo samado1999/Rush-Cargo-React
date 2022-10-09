@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 
 import SolutionCard from '../components/solution-card'
 import TextCard from '../components/text-card'
+import Cotizador from '../components/cotizador'
 import HeadingCard from '../components/heading-card'
 import ServiceMethodCard from '../components/service-method-card'
 import AboutCard from '../components/about-card'
@@ -130,6 +131,7 @@ const Home = (props) => {
           <br></br>
         </span>
       </div>
+      <Cotizador rootClassName="cotizador-root-class-name"></Cotizador>
       <div className="home-container07">
         <HeadingCard
           heading="Experiencia"
