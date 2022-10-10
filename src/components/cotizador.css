@@ -93,7 +93,13 @@
 
 @media(max-width: 479px) {
   .cotizador-container05 {
+    margin-top: var(--dl-space-space-unit);
+    align-items: center;
+    margin-bottom: var(--dl-space-space-unit);
     flex-direction: column;
+  }
+  .cotizador-text3 {
+    margin-bottom: var(--dl-space-space-unit);
   }
   .cotizador-container07 {
     align-items: center;
