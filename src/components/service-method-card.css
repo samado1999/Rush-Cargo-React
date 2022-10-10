@@ -23,7 +23,10 @@
   object-fit: cover;
   border-radius: 16px;
 }
-
+.service-method-card-root-class-name {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 @media(max-width: 479px) {
   .service-method-card-root-class-name {
     margin-top: 50px;
