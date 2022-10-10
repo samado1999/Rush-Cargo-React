@@ -19,7 +19,7 @@
 .text-card-root-class-name {
   align-self: flex-start;
 }
-@media(max-width: 885px) {
+@media(max-width: 1000px) {
   .text-card-root-class-name {
     align-self: flex-start;
   }

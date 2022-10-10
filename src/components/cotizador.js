@@ -46,22 +46,22 @@ Cotizador.defaultProps = {
   heading1: 'Cantidad Libras',
   text3: '10',
   text: '1',
+  textinput_placeholder: 'placeholder',
   heading2: 'Total (En Pesos)',
   heading: 'TRM',
   text1: '4300',
   rootClassName: '',
-  textinput_placeholder: 'placeholder',
 }
 
 Cotizador.propTypes = {
   heading1: PropTypes.string,
   text3: PropTypes.string,
   text: PropTypes.string,
+  textinput_placeholder: PropTypes.string,
   heading2: PropTypes.string,
   heading: PropTypes.string,
   text1: PropTypes.string,
   rootClassName: PropTypes.string,
-  textinput_placeholder: PropTypes.string,
 }
 
 export default Cotizador

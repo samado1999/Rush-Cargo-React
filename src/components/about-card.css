@@ -27,7 +27,7 @@
   width: 50%;
   align-self: flex-start;
 }
-@media(max-width: 885px) {
+@media(max-width: 1000px) {
   .about-card-root-class-name1 {
     margin-left: var(--dl-space-space-unit);
   }

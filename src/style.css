@@ -21,7 +21,6 @@
   --dl-color-success-500: #32A94C;
   --dl-color-success-700: #4CC366;
   --dl-size-size-xxlarge: 288px;
-  --dl-space-space-frame: 120px;
   --dl-size-size-maxwidth: 1400px;
   --dl-radius-radius-round: 50%;
   --dl-space-space-halfunit: 8px;
@@ -33,6 +32,10 @@
   --dl-space-space-fiveunits: 80px;
   --dl-space-space-fourunits: 64px;
   --dl-space-space-threeunits: 48px;
+  --dl-space-space-framemobile: 10px;
+  --dl-space-space-frametablet: 120px;
+  --dl-space-space-framedesktop: 220px;
+  --dl-space-space-framelandscape: 180px;
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {

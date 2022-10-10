@@ -56,7 +56,7 @@
   object-fit: cover;
 }
 
-@media(max-width: 767px) {
+@media(max-width: 900px) {
   .footer-footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
