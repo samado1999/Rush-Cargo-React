@@ -1,46 +1,63 @@
-import React from 'react'
+import React, { useState } from 'react';
 
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
-import './cotizador.css'
+import './cotizador.css';
+
+import TrmApi from 'trm-api';
 
 const Cotizador = (props) => {
+  const [trm, setTrm] = useState([]);
+  const [total, setTotal] = useState([]);
+
+  const trmApi = new TrmApi();
+  trmApi
+    .latest()
+    .then((data) => setTrm(data.valor))
+    .catch((error) => console.log(error));
+
+  function handleChange(event) {
+    const libras = event.target.value;
+    const minima = 10 * trm;
+    setTotal(Number.isNaN(parseInt(libras)) ? 0 : minima * parseInt(libras));
+  }
   return (
     <div className={`cotizador-container ${props.rootClassName} `}>
-      <div className="cotizador-container01">
-        <div className="cotizador-container02">
-          <h1 className="cotizador-text">{props.heading}</h1>
+      <div className='cotizador-container01'>
+        <div className='cotizador-container02'>
+          <h1 className='cotizador-text'>{props.heading}</h1>
         </div>
-        <div className="cotizador-container03">
-          <span className="cotizador-text1">{props.text}</span>
+        <div className='cotizador-container03'>
+          <span className='cotizador-text1'>{props.text}</span>
         </div>
-        <div className="cotizador-container04">
-          <span className="cotizador-text2">{props.text1}</span>
+        <div className='cotizador-container04'>
+          <span className='cotizador-text2'>${trm} COP</span>
         </div>
       </div>
-      <div className="cotizador-container05">
-        <div className="cotizador-container06">
-          <h1 className="cotizador-text3">{props.heading1}</h1>
+      <div className='cotizador-container05'>
+        <div className='cotizador-container06'>
+          <h1 className='cotizador-text3'>{props.heading1}</h1>
         </div>
-        <div className="cotizador-container07">
+        <div className='cotizador-container07'>
           <input
-            type="text"
+            type='text'
             placeholder={props.textinput_placeholder}
-            className="input"
+            className='input'
+            onChange={handleChange}
           />
         </div>
       </div>
-      <div className="cotizador-container08">
-        <div className="cotizador-container09">
-          <h1 className="cotizador-text4">{props.heading2}</h1>
+      <div className='cotizador-container08'>
+        <div className='cotizador-container09'>
+          <h1 className='cotizador-text4'>{props.heading2}</h1>
         </div>
-        <div className="cotizador-container10">
-          <span className="cotizador-text5">{props.text3}</span>
+        <div className='cotizador-container10'>
+          <span className='cotizador-text5'>{total}</span>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 Cotizador.defaultProps = {
   heading1: 'Cantidad Libras',
@@ -50,8 +67,8 @@ Cotizador.defaultProps = {
   heading: 'TRM',
   text1: '4300',
   rootClassName: '',
-  textinput_placeholder: 'placeholder',
-}
+  textinput_placeholder: 'libras',
+};
 
 Cotizador.propTypes = {
   heading1: PropTypes.string,
@@ -62,6 +79,6 @@ Cotizador.propTypes = {
   text1: PropTypes.string,
   rootClassName: PropTypes.string,
   textinput_placeholder: PropTypes.string,
-}
+};
 
-export default Cotizador
+export default Cotizador;
