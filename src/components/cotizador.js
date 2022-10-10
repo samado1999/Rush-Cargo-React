@@ -52,7 +52,7 @@ const Cotizador = (props) => {
           <h1 className='cotizador-text4'>{props.heading2}</h1>
         </div>
         <div className='cotizador-container10'>
-          <span className='cotizador-text5'>{total}</span>
+          <span className='cotizador-text5'>${total} COP</span>
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@ const Cotizador = (props) => {
 Cotizador.defaultProps = {
   heading1: 'Cantidad Libras',
   text3: '10',
-  text: '1',
+  text: '$1 US',
   heading2: 'Total (En Pesos)',
   heading: 'TRM',
   text1: '4300',
