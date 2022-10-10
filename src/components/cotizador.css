@@ -5,9 +5,9 @@
   position: relative;
   margin-top: var(--dl-space-space-twounits);
   align-items: flex-start;
-  padding-left: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-frame);
   margin-bottom: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-frame);
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -91,18 +91,100 @@
   flex-direction: column;
 }
 
+@media(max-width: 767px) {
+  .cotizador-container01 {
+    flex-direction: column;
+  }
+  .cotizador-container02 {
+    align-items: center;
+  }
+  .cotizador-text {
+    text-align: center;
+  }
+  .cotizador-container03 {
+    align-items: center;
+  }
+  .cotizador-text1 {
+    text-align: center;
+  }
+  .cotizador-container04 {
+    align-items: center;
+  }
+  .cotizador-text2 {
+    text-align: center;
+  }
+  .cotizador-container05 {
+    flex-direction: column;
+  }
+  .cotizador-container06 {
+    align-items: center;
+  }
+  .cotizador-text3 {
+    text-align: center;
+  }
+  .cotizador-container07 {
+    align-items: center;
+  }
+  .cotizador-container08 {
+    flex-direction: column;
+  }
+  .cotizador-container09 {
+    align-items: center;
+  }
+  .cotizador-text4 {
+    text-align: center;
+  }
+  .cotizador-container10 {
+    align-items: center;
+  }
+  .cotizador-text5 {
+    text-align: center;
+  }
+}
 @media(max-width: 479px) {
+  .cotizador-container01 {
+    flex-direction: column;
+  }
+  .cotizador-container02 {
+    align-items: center;
+  }
+  .cotizador-text {
+    text-align: center;
+  }
+  .cotizador-container03 {
+    align-self: center;
+  }
+  .cotizador-container04 {
+    align-self: center;
+    align-items: center;
+  }
   .cotizador-container05 {
     margin-top: var(--dl-space-space-unit);
     align-items: center;
     margin-bottom: var(--dl-space-space-unit);
     flex-direction: column;
   }
+  .cotizador-container06 {
+    align-items: center;
+  }
   .cotizador-text3 {
+    text-align: center;
     margin-bottom: var(--dl-space-space-unit);
   }
   .cotizador-container07 {
     align-items: center;
     flex-direction: column;
+  }
+  .cotizador-container08 {
+    flex-direction: column;
+  }
+  .cotizador-container09 {
+    align-items: center;
+  }
+  .cotizador-text4 {
+    text-align: center;
+  }
+  .cotizador-container10 {
+    align-items: center;
   }
 }

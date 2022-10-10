@@ -125,7 +125,14 @@ const Home = (props) => {
         ></TextCard>
       </div>
       <div className="home-container06">
-        <button className="home-button button">¡Contactar!</button>
+        <a
+          href="https://wa.me/message/F4ZSFNDG5G64D1"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="home-link8 button"
+        >
+          ¡Contactar!
+        </a>
         <span className="home-text06">
           <span>Solicita tu asesoría personalizada</span>
           <br></br>

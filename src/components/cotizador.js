@@ -12,10 +12,10 @@ const Cotizador = (props) => {
           <h1 className="cotizador-text">{props.heading}</h1>
         </div>
         <div className="cotizador-container03">
-          <span className="">{props.text}</span>
+          <span className="cotizador-text1">{props.text}</span>
         </div>
         <div className="cotizador-container04">
-          <span className="">{props.text1}</span>
+          <span className="cotizador-text2">{props.text1}</span>
         </div>
       </div>
       <div className="cotizador-container05">
@@ -35,7 +35,7 @@ const Cotizador = (props) => {
           <h1 className="cotizador-text4">{props.heading2}</h1>
         </div>
         <div className="cotizador-container10">
-          <span className="">{props.text3}</span>
+          <span className="cotizador-text5">{props.text3}</span>
         </div>
       </div>
     </div>
