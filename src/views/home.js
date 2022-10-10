@@ -269,12 +269,16 @@ const Home = (props) => {
           ></HeadingCard>
         </div>
         <div id="cotizar" className="home-container25">
-          <Cotizador rootClassName="cotizador-root-class-name"></Cotizador>
+          <h1 className="home-text36">
+            <span>Cotizar</span>
+            <br></br>
+          </h1>
         </div>
+        <Cotizador rootClassName="cotizador-root-class-name"></Cotizador>
         <div id="contact" className="home-container26">
           <div className="home-container27">
-            <h1 className="home-text36">Dirección:</h1>
-            <span className="home-text37">
+            <h1 className="home-text39">Dirección:</h1>
+            <span className="home-text40">
               <span>5055 NW 74 AVE</span>
               <br></br>
               <span>SUITE 8</span>
@@ -285,8 +289,8 @@ const Home = (props) => {
               <br></br>
               <span>EE. UU.</span>
             </span>
-            <h1 className="home-text47">Teléfono:</h1>
-            <span className="home-text48">
+            <h1 className="home-text50">Teléfono:</h1>
+            <span className="home-text51">
               <span>+1 305 888 18 68</span>
               <br></br>
               <span>+57 601 7816784</span>

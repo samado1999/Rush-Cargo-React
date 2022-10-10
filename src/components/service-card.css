@@ -3,11 +3,9 @@
   height: auto;
   display: flex;
   position: relative;
-  margin-top: var(--dl-space-space-twounits);
   align-items: center;
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
   justify-content: center;
 }

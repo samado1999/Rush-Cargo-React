@@ -87,8 +87,8 @@
   flex-direction: column;
 }
 .cotizador-root-class-name {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 50px;
+  margin-bottom: 150px;
 }
 @media(max-width: 900px) {
   .cotizador-container01 {

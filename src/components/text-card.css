@@ -12,12 +12,12 @@
   font-size: 19px;
   align-self: flex-start;
   font-style: normal;
-  text-align: left;
+  text-align: center;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-twounits);
 }
 .text-card-root-class-name {
-  align-self: flex-start;
+  align-self: center;
 }
 @media(max-width: 1000px) {
   .text-card-root-class-name {
