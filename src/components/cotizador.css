@@ -3,11 +3,7 @@
   height: auto;
   display: flex;
   position: relative;
-  margin-top: var(--dl-space-space-twounits);
   align-items: flex-start;
-  padding-left: var(--dl-space-space-framedesktop);
-  margin-bottom: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-framedesktop);
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -90,7 +86,10 @@
   align-items: flex-end;
   flex-direction: column;
 }
-
+.cotizador-root-class-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 @media(max-width: 900px) {
   .cotizador-container01 {
     flex-direction: column;

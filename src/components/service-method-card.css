@@ -13,9 +13,7 @@
   display: flex;
   margin-top: var(--dl-space-space-fourunits);
   align-items: center;
-  padding-left: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-threeunits);
   justify-content: center;
 }
 .service-method-card-image {
@@ -33,8 +31,6 @@
 @media(max-width: 479px) {
   .service-method-card-container1 {
     margin-top: var(--dl-space-space-fiveunits);
-    padding-left: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-fiveunits);
-    padding-right: var(--dl-space-space-unit);
   }
 }
