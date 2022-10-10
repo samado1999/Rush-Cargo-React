@@ -74,7 +74,7 @@
   fill: #515151;
 }
 
-@media(max-width: 885px) {
+@media(max-width: 1000px) {
   .social-media-card-container1 {
     display: flex;
   }

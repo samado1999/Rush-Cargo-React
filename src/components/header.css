@@ -170,7 +170,7 @@
   flex-direction: column;
   justify-content: flex-end;
 }
-@media(max-width: 767px) {
+@media(max-width: 900px) {
   .header-header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);

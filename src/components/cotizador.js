@@ -74,6 +74,7 @@ Cotizador.propTypes = {
   heading1: PropTypes.string,
   text3: PropTypes.string,
   text: PropTypes.string,
+  textinput_placeholder: PropTypes.string,
   heading2: PropTypes.string,
   heading: PropTypes.string,
   text1: PropTypes.string,
