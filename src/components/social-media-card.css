@@ -76,7 +76,7 @@
 
 @media(max-width: 1000px) {
   .social-media-card-container1 {
-    display: flex;
+    display: none;
   }
 }
 @media(max-width: 479px) {
