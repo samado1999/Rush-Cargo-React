@@ -40,7 +40,7 @@ const Cotizador = (props) => {
         </div>
         <div className='cotizador-container07'>
           <input
-            type='text'
+            type='number'
             placeholder={props.textinput_placeholder}
             className='input'
             onChange={handleChange}
