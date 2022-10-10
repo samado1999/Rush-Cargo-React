@@ -141,16 +141,16 @@ const Home = (props) => {
       <Cotizador rootClassName="cotizador-root-class-name"></Cotizador>
       <div className="home-container07">
         <HeadingCard
-          heading="Experiencia"
           rootClassName="heading-card-root-class-name"
+          heading="Experiencia"
         ></HeadingCard>
         <HeadingCard
-          heading="Personalización"
           rootClassName="heading-card-root-class-name1"
+          heading="Personalización"
         ></HeadingCard>
         <HeadingCard
-          heading="Confianza"
           rootClassName="heading-card-root-class-name2"
+          heading="Confianza"
         ></HeadingCard>
       </div>
       <ServiceMethodCard rootClassName="service-method-card-root-class-name"></ServiceMethodCard>
