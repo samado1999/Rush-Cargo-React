@@ -73,7 +73,9 @@
 .social-media-card-icon4:hover {
   fill: #515151;
 }
-
+.social-media-card-root-class-name1 {
+  margin-top: 50px;
+}
 @media(max-width: 1000px) {
   .social-media-card-container1 {
     display: none;

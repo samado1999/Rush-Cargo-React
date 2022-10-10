@@ -14,12 +14,12 @@
   align-self: flex-start;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
-  text-align: left;
+  text-align: center;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-twounits);
 }
 .solution-card-root-class-name {
-  align-self: flex-start;
+  align-self: center;
 }
 @media(max-width: 1000px) {
   .solution-card-root-class-name {
