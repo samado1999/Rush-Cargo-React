@@ -35,10 +35,18 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
 }
+.social-media-card-link {
+  display: contents;
+}
 .social-media-card-icon2 {
   fill: #2F5597;
   width: 70px;
   height: 70px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.social-media-card-icon2:hover {
+  fill: #515151;
 }
 .social-media-card-container3 {
   flex: 0 0 auto;
@@ -52,10 +60,18 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
 }
+.social-media-card-link1 {
+  display: contents;
+}
 .social-media-card-icon4 {
   fill: #2F5597;
   width: 70px;
   height: 70px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.social-media-card-icon4:hover {
+  fill: #515151;
 }
 
 @media(max-width: 885px) {
