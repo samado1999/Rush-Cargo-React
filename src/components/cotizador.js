@@ -8,7 +8,7 @@ import TrmApi from 'trm-api';
 
 const Cotizador = (props) => {
   const [trm, setTrm] = useState([]);
-  const [total, setTotal] = useState([]);
+  const [total, setTotal] = useState(0);
 
   const trmApi = new TrmApi();
   trmApi
