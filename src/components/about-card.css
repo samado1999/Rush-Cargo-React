@@ -8,17 +8,17 @@
 .about-card-heading {
   color: #515151;
   font-size: 36px;
-  align-self: flex-start;
+  align-self: center;
   font-style: normal;
-  text-align: left;
+  text-align: center;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-card-text {
   color: #515151;
   font-size: 17px;
-  align-self: flex-start;
-  text-align: left;
+  align-self: center;
+  text-align: center;
 }
 .about-card-root-class-name {
   width: 50%;
