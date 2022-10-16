@@ -7,6 +7,7 @@ import TextCard from '../components/text-card'
 import SocialMediaCard from '../components/social-media-card'
 import AboutCard from '../components/about-card'
 import ServiceMethodCard from '../components/service-method-card'
+import VideoCard from '../components/video-card'
 import ServiceCard from '../components/service-card'
 import HeadingCard from '../components/heading-card'
 import Cotizador from '../components/cotizador'
@@ -219,6 +220,7 @@ const Home = (props) => {
           </div>
         </div>
         <ServiceMethodCard rootClassName="service-method-card-root-class-name"></ServiceMethodCard>
+        <VideoCard rootClassName="video-card-root-class-name"></VideoCard>
         <div id="services" className="home-container20">
           <h1 className="home-text30">
             <span>Nuestros servicios</span>
