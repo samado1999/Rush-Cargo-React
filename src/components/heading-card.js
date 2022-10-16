@@ -15,7 +15,7 @@ const HeadingCard = (props) => {
 }
 
 HeadingCard.defaultProps = {
-  heading: 'Heading',
+  heading: 'Personalización',
   rootClassName: '',
 }
 

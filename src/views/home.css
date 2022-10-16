@@ -344,8 +344,7 @@
 .home-text15 {
   color: rgb(81, 81, 81);
   font-size: 16px;
-  align-self: center;
-  text-align: center;
+  text-align: justify;
 }
 .home-container14 {
   width: calc(100%/3);
@@ -391,7 +390,7 @@
 .home-text21 {
   color: rgb(81, 81, 81);
   font-size: 16px;
-  text-align: center;
+  text-align: justify;
 }
 .home-container17 {
   width: calc(100%/3);
@@ -438,7 +437,7 @@
   color: rgb(81, 81, 81);
   font-size: 16px;
   align-self: center;
-  text-align: center;
+  text-align: justify;
 }
 .home-container20 {
   flex: 0 0 auto;
