@@ -22,6 +22,11 @@
   height: 150px;
   align-self: center;
   object-fit: cover;
+  transition: 0.3s;
+}
+.service-card-image:hover {
+  width: 160px;
+  height: 160px;
 }
 .service-card-text {
   color: #2F5597;
