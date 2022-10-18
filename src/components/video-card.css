@@ -9,26 +9,5 @@
 }
 .video-card-video {
   width: auto;
-  height: 100%;
-}
-.video-card-root-class-name {
-  width: 100%;
-  height: auto;
-  align-self: center;
-}
-@media(max-width: 1000px) {
-  .video-card-root-class-name {
-    width: 100%;
-    align-self: center;
-  }
-}
-@media(max-width: 900px) {
-  .video-card-root-class-name {
-    align-self: center;
-  }
-}
-@media(max-width: 479px) {
-  .video-card-root-class-name {
-    align-self: center;
-  }
+  height: 90%;
 }
