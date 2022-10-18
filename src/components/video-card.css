@@ -21,3 +21,8 @@
     width: 100%;
   }
 }
+@media(max-width: 900px) {
+  .video-card-root-class-name {
+    min-height: 200px;
+  }
+}
