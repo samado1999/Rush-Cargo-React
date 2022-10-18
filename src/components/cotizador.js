@@ -16,10 +16,14 @@ const Cotizador = (props) => {
     .then((data) => setTrm(data.valor))
     .catch((error) => console.log(error));
 
-  function handleChange(event) {
+  function handleOnChange(event) {
     const libras = event.target.value;
     const minima = 10 * trm;
     setTotal(Number.isNaN(parseInt(libras)) ? 0 : minima * parseInt(libras));
+  }
+
+  function handleOnKeyPress(event) {
+    return event.target.validity.valid || (event.target.value = '');
   }
   return (
     <div className={`cotizador-container ${props.rootClassName} `}>
@@ -43,7 +47,9 @@ const Cotizador = (props) => {
             type='number'
             placeholder={props.textinput_placeholder}
             className='input'
-            onChange={handleChange}
+            min='0'
+            onChange={handleOnChange}
+            onInput={handleOnKeyPress}
           />
         </div>
       </div>
