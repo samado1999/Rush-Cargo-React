@@ -38,11 +38,11 @@ const FormCard = (props) => {
 
 FormCard.defaultProps = {
   text2: 'Mensaje',
-  textinput_placeholder1: 'placeholder',
-  textarea_placeholder: 'placeholder',
+  textinput_placeholder1: 'E-mail',
+  textarea_placeholder: 'Mensaje',
   text1: 'E-mail',
   rootClassName: '',
-  textinput_placeholder: 'placeholder',
+  textinput_placeholder: 'Nombre',
   text: 'Nombre',
 }
 
