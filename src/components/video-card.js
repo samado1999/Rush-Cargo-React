@@ -9,8 +9,12 @@ const VideoCard = (props) => {
     <div className={`video-card-container ${props.rootClassName} `}>
       <video
         src={props.video_src}
-        poster="https://play.teleporthq.io/static/svg/videoposter.svg"
         className="video-card-video"
+        type="video/mp4"
+        autoPlay
+        muted
+        controls
+        loop
       ></video>
     </div>
   )

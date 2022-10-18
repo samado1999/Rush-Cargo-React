@@ -8,7 +8,7 @@
   justify-content: center;
 }
 .video-card-video {
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 .video-card-root-class-name {
