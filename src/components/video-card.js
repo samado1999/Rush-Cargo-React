@@ -21,13 +21,13 @@ const VideoCard = (props) => {
 }
 
 VideoCard.defaultProps = {
-  video_src: '/playground_assets/metodo%20servicio%20low.mp4',
   rootClassName: '',
+  video_src: '/playground_assets/metodo%20servicio%20low.mp4',
 }
 
 VideoCard.propTypes = {
-  video_src: PropTypes.string,
   rootClassName: PropTypes.string,
+  video_src: PropTypes.string,
 }
 
 export default VideoCard
