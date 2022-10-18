@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
+import ReactResponsiveCarousel from '../components/react-responsive-carousel'
 import SolutionCard from '../components/solution-card'
 import TextCard from '../components/text-card'
 import SocialMediaCard from '../components/social-media-card'
@@ -115,6 +116,7 @@ const Home = (props) => {
         </header>
       </div>
       <div className="home-container04">
+        <ReactResponsiveCarousel rootClassName="react-responsive-carousel-root-class-name"></ReactResponsiveCarousel>
         <div id="home" className="home-container05">
           <SolutionCard
             heading="Todas las soluciones en transporte de mercancía"
