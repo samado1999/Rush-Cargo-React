@@ -13,17 +13,11 @@
 }
 .video-card-root-class-name {
   width: 100%;
-  height: auto;
+  height: 100%;
   align-self: center;
-  min-height: 200px;
 }
 @media(max-width: 1000px) {
   .video-card-root-class-name {
     width: 100%;
-  }
-}
-@media(max-width: 900px) {
-  .video-card-root-class-name {
-    min-height: 200px;
   }
 }
