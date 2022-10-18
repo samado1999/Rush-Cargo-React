@@ -117,19 +117,20 @@ const Home = (props) => {
       </div>
       <div className="home-container04">
         <ReactResponsiveCarousel rootClassName="react-responsive-carousel-root-class-name"></ReactResponsiveCarousel>
-        <div id="home" className="home-container05">
+        <div id="home" className="home-container05"></div>
+        <div className="home-container06">
           <SolutionCard
             heading="Todas las soluciones en transporte de mercancía"
             rootClassName="solution-card-root-class-name"
           ></SolutionCard>
         </div>
-        <div className="home-container06">
+        <div className="home-container07">
           <TextCard
             text="Un servicio que te ayuda a traer todas tus compras del exterior"
             rootClassName="text-card-root-class-name"
           ></TextCard>
         </div>
-        <div className="home-container07">
+        <div className="home-container08">
           <a
             href="https://wa.me/message/F4ZSFNDG5G64D1"
             target="_blank"
@@ -144,13 +145,14 @@ const Home = (props) => {
           </span>
         </div>
         <SocialMediaCard rootClassName="social-media-card-root-class-name1"></SocialMediaCard>
-        <div className="home-container08">
+        <div className="home-container09">
           <span className="home-text11">
             <span>Síguenos en redes sociales</span>
             <br></br>
           </span>
         </div>
-        <div id="about" className="home-container09">
+        <div id="about" className="home-container10"></div>
+        <div className="home-container11">
           <AboutCard
             text="Es una empresa colombiana que ofrece los servicios de transporte de mercancía a nivel internacional."
             heading="Rush Cargo"
@@ -158,14 +160,14 @@ const Home = (props) => {
           ></AboutCard>
           <AboutCard rootClassName="about-card-root-class-name1"></AboutCard>
         </div>
-        <div className="home-container10">
-          <div className="home-container11">
-            <div className="home-container12">
+        <div className="home-container12">
+          <div className="home-container13">
+            <div className="home-container14">
               <svg viewBox="0 0 1024 1024" className="home-icon10">
                 <path d="M682 554q56 0 122 16t122 52 56 82v106h-256v-106q0-88-84-148 14-2 40-2zM342 554q56 0 122 16t121 52 55 82v106h-598v-106q0-46 56-82t122-52 122-16zM342 470q-52 0-90-38t-38-90 38-90 90-38 89 38 37 90-37 90-89 38zM682 470q-52 0-90-38t-38-90 38-90 90-38 90 38 38 90-38 90-90 38z"></path>
               </svg>
             </div>
-            <div className="home-container13">
+            <div className="home-container15">
               <h1 className="home-text14">Personalización</h1>
               <span className="home-text15">
                 <span>
@@ -177,8 +179,8 @@ const Home = (props) => {
               </span>
             </div>
           </div>
-          <div className="home-container14">
-            <div className="home-container15">
+          <div className="home-container16">
+            <div className="home-container17">
               <svg
                 viewBox="0 0 1060.5714285714284 1024"
                 className="home-icon12"
@@ -186,7 +188,7 @@ const Home = (props) => {
                 <path d="M365.714 804.571c0-40-33.143-73.143-73.143-73.143s-73.143 33.143-73.143 73.143 33.143 73.143 73.143 73.143 73.143-33.143 73.143-73.143zM146.286 512h219.429v-146.286h-90.286c-2.286 0-10.857 3.429-12.571 5.143l-111.429 111.429c-1.714 1.714-5.143 10.286-5.143 12.571v17.143zM877.714 804.571c0-40-33.143-73.143-73.143-73.143s-73.143 33.143-73.143 73.143 33.143 73.143 73.143 73.143 73.143-33.143 73.143-73.143zM1024 182.857v585.143c0 42.286-44.571 36.571-73.143 36.571 0 80.571-65.714 146.286-146.286 146.286s-146.286-65.714-146.286-146.286h-219.429c0 80.571-65.714 146.286-146.286 146.286s-146.286-65.714-146.286-146.286h-36.571c-28.571 0-73.143 5.714-73.143-36.571 0-20 16.571-36.571 36.571-36.571v-182.857c0-40.571-5.714-85.714 25.714-117.143l113.143-113.143c14.286-14.286 41.714-25.714 62.286-25.714h91.429v-109.714c0-20 16.571-36.571 36.571-36.571h585.143c20 0 36.571 16.571 36.571 36.571z"></path>
               </svg>
             </div>
-            <div className="home-container16">
+            <div className="home-container18">
               <h1 className="home-text18">
                 <span>Envío hasta tu puerta</span>
                 <br></br>
@@ -200,13 +202,13 @@ const Home = (props) => {
               </span>
             </div>
           </div>
-          <div className="home-container17">
-            <div className="home-container18">
+          <div className="home-container19">
+            <div className="home-container20">
               <svg viewBox="0 0 658.2857142857142 1024" className="home-icon14">
                 <path d="M182.857 438.857h292.571v-109.714c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286v109.714zM658.286 493.714v329.143c0 30.286-24.571 54.857-54.857 54.857h-548.571c-30.286 0-54.857-24.571-54.857-54.857v-329.143c0-30.286 24.571-54.857 54.857-54.857h18.286v-109.714c0-140.571 115.429-256 256-256s256 115.429 256 256v109.714h18.286c30.286 0 54.857 24.571 54.857 54.857z"></path>
               </svg>
             </div>
-            <div className="home-container19">
+            <div className="home-container21">
               <h1 className="home-text24">
                 <span>Seguro de mercancía</span>
                 <br></br>
@@ -223,13 +225,14 @@ const Home = (props) => {
         </div>
         <ServiceMethodCard rootClassName="service-method-card-root-class-name"></ServiceMethodCard>
         <VideoCard rootClassName="video-card-root-class-name"></VideoCard>
-        <div id="services" className="home-container20">
+        <div id="services" className="home-container22"></div>
+        <div className="home-container23">
           <h1 className="home-text30">
             <span>Nuestros servicios</span>
             <br></br>
           </h1>
         </div>
-        <div className="home-container21">
+        <div className="home-container24">
           <ServiceCard
             heading="Courier"
             image_src="/playground_assets/airplane-200h.png"
@@ -244,8 +247,8 @@ const Home = (props) => {
             heading="Urbanos"
             rootClassName="service-card-root-class-name"
           ></ServiceCard>
-          <div className="home-container22">
-            <div className="home-container23">
+          <div className="home-container25">
+            <div className="home-container26">
               <img
                 alt="image"
                 src="/playground_assets/container-200h.png"
@@ -258,7 +261,7 @@ const Home = (props) => {
             </h1>
           </div>
         </div>
-        <div className="home-container24">
+        <div className="home-container27">
           <HeadingCard
             heading="Experiencia"
             rootClassName="heading-card-root-class-name"
@@ -272,15 +275,17 @@ const Home = (props) => {
             rootClassName="heading-card-root-class-name2"
           ></HeadingCard>
         </div>
-        <div id="cotizar" className="home-container25">
+        <div id="cotizar" className="home-container28"></div>
+        <div className="home-container29">
           <h1 className="home-text36">
             <span>Cotizar</span>
             <br></br>
           </h1>
         </div>
         <Cotizador rootClassName="cotizador-root-class-name"></Cotizador>
-        <div id="contact" className="home-container26">
-          <div className="home-container27">
+        <div id="contact" className="home-container30"></div>
+        <div className="home-container31">
+          <div className="home-container32">
             <h1 className="home-text39">Dirección:</h1>
             <span className="home-text40">
               <span>5055 NW 74 AVE</span>
@@ -302,7 +307,7 @@ const Home = (props) => {
               <span>+57 316 833 1920</span>
             </span>
           </div>
-          <div className="home-container28">
+          <div className="home-container33">
             <FormCard rootClassName="form-card-root-class-name"></FormCard>
           </div>
         </div>
