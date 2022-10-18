@@ -47,6 +47,8 @@
 }
 .social-media-card-icon2:hover {
   fill: #515151;
+  width: 80px;
+  height: 80px;
 }
 .social-media-card-container3 {
   flex: 0 0 auto;
@@ -72,6 +74,8 @@
 }
 .social-media-card-icon4:hover {
   fill: #515151;
+  width: 80px;
+  height: 80px;
 }
 .social-media-card-root-class-name1 {
   margin-top: 50px;
