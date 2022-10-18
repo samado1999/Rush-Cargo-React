@@ -11,4 +11,11 @@
   width: 100%;
   height: 100%;
 }
-
+.video-card-root-class-name {
+  height: auto;
+}
+@media(max-width: 479px) {
+  .video-card-root-class-name {
+    height: auto;
+  }
+}
