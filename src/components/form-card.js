@@ -14,6 +14,7 @@ const FormCard = (props) => {
             placeholder={props.textarea_placeholder}
             id="message-area"
             className="form-card-textarea textarea"
+            required
           ></textarea>
         </div>
       </form>
@@ -23,7 +24,7 @@ const FormCard = (props) => {
 
 FormCard.defaultProps = {
   text2: 'Envíanos un mensaje 😃',
-  textarea_placeholder: 'placeholder',
+  textarea_placeholder: 'mensaje',
   rootClassName: '',
 }
 
