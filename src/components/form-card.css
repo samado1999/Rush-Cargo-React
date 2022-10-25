@@ -15,38 +15,10 @@
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
   justify-content: center;
 }
 .form-card-text {
-  width: 20%;
-}
-.form-card-input {
-  width: 80%;
-}
-.form-card-container2 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-twounits);
-  flex-direction: row;
-  justify-content: center;
-}
-.form-card-text1 {
-  width: 20%;
-}
-.form-card-textinput {
-  width: 80%;
-}
-.form-card-container3 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.form-card-text2 {
   width: 20%;
 }
 .form-card-textarea {
@@ -61,28 +33,6 @@
     flex-direction: column;
   }
   .form-card-text {
-    width: 100%;
-    align-self: flex-start;
-    text-align: left;
-  }
-  .form-card-input {
-    width: 100%;
-  }
-  .form-card-container2 {
-    flex-direction: column;
-  }
-  .form-card-text1 {
-    width: 100%;
-    align-self: flex-start;
-    text-align: left;
-  }
-  .form-card-textinput {
-    width: 100%;
-  }
-  .form-card-container3 {
-    flex-direction: column;
-  }
-  .form-card-text2 {
     width: 100%;
     align-self: flex-start;
     text-align: left;
