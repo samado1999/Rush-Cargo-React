@@ -17,6 +17,9 @@ const FormCard = (props) => {
             required
           ></textarea>
         </div>
+        <div className="form-card-container2">
+          <button className="form-card-button button">{props.button}</button>
+        </div>
       </form>
     </div>
   )
@@ -26,12 +29,16 @@ FormCard.defaultProps = {
   text2: 'Envíanos un mensaje 😃',
   textarea_placeholder: 'mensaje',
   rootClassName: '',
+  button: '¡Contactar!',
+  link_button: 'https://wa.me/message/F4ZSFNDG5G64D1',
 }
 
 FormCard.propTypes = {
   text2: PropTypes.string,
   textarea_placeholder: PropTypes.string,
   rootClassName: PropTypes.string,
+  button: PropTypes.string,
+  link_button: PropTypes.string,
 }
 
 export default FormCard
