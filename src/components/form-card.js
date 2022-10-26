@@ -60,18 +60,18 @@ const FormCard = (props) => {
 FormCard.defaultProps = {
   text2: 'Envíanos un mensaje 😃',
   textarea_placeholder: 'mensaje',
-  rootClassName: '',
-  button: '¡Contactar!',
+  button: '¡Enviar!',
   link_button: 'https://wa.me/message/F4ZSFNDG5G64D1',
+  rootClassName: '',
   text: 'Mensaje enviado correctamente',
 };
 
 FormCard.propTypes = {
   text2: PropTypes.string,
   textarea_placeholder: PropTypes.string,
-  rootClassName: PropTypes.string,
   button: PropTypes.string,
   link_button: PropTypes.string,
+  rootClassName: PropTypes.string,
   text: PropTypes.string,
 };
 
