@@ -71,8 +71,8 @@
   }
   .form-card-text1 {
     width: 100%;
-    align-self: flex-start;
-    text-align: left;
+    text-align: center;
+    margin-bottom: var(--dl-space-space-unit);
   }
   .form-card-textarea {
     width: 100%;
