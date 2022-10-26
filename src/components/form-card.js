@@ -20,9 +20,12 @@ const FormCard = (props) => {
   function handleFormSubmit(event) {}
   return (
     <div className={`form-card-container ${props.rootClassName} `}>
-      <form className='form-card-form'>
-        <div className='form-card-container1'>
-          <span className='form-card-text'>{props.text2}</span>
+      <form className="form-card-form">
+        <div className="form-card-container1">
+          <span className="form-card-text">{props.text}</span>
+        </div>
+        <div className="form-card-container2">
+          <span className="form-card-text1">{props.text2}</span>
           <textarea
             placeholder={props.textarea_placeholder}
             id='message-area'
@@ -52,7 +55,8 @@ FormCard.defaultProps = {
   rootClassName: '',
   button: '¡Contactar!',
   link_button: 'https://wa.me/message/F4ZSFNDG5G64D1',
-};
+  text: 'Mensaje enviado correctamente',
+}
 
 FormCard.propTypes = {
   text2: PropTypes.string,
@@ -60,6 +64,7 @@ FormCard.propTypes = {
   rootClassName: PropTypes.string,
   button: PropTypes.string,
   link_button: PropTypes.string,
-};
+  text: PropTypes.string,
+}
 
 export default FormCard;
