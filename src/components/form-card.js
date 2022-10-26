@@ -14,8 +14,8 @@ const FormCard = (props) => {
         <div className="form-card-container2">
           <span className="form-card-text1">{props.text2}</span>
           <textarea
-            placeholder={props.textarea_placeholder}
             id="message-area"
+            placeholder={props.textarea_placeholder}
             className="form-card-textarea textarea"
           ></textarea>
         </div>
@@ -30,18 +30,18 @@ const FormCard = (props) => {
 FormCard.defaultProps = {
   text2: 'Envíanos un mensaje 😃',
   textarea_placeholder: 'placeholder',
-  rootClassName: '',
-  button: '¡Contactar!',
+  button: '¡Enviar!',
   link_button: 'https://wa.me/message/F4ZSFNDG5G64D1',
+  rootClassName: '',
   text: 'Mensaje enviado correctamente',
 }
 
 FormCard.propTypes = {
   text2: PropTypes.string,
   textarea_placeholder: PropTypes.string,
-  rootClassName: PropTypes.string,
   button: PropTypes.string,
   link_button: PropTypes.string,
+  rootClassName: PropTypes.string,
   text: PropTypes.string,
 }
 

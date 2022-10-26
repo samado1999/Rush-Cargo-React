@@ -116,8 +116,8 @@ const Home = (props) => {
         </header>
       </div>
       <div className="home-container04">
-        <ReactResponsiveCarousel rootClassName="react-responsive-carousel-root-class-name"></ReactResponsiveCarousel>
         <div id="home" className="home-container05"></div>
+        <ReactResponsiveCarousel rootClassName="react-responsive-carousel-root-class-name"></ReactResponsiveCarousel>
         <div className="home-container06">
           <SolutionCard
             heading="Todas las soluciones en transporte de mercancía"
