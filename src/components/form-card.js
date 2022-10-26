@@ -17,15 +17,23 @@ const FormCard = (props) => {
     setMessage(event.target.value);
   }
 
-  function handleFormSubmit(event) {}
+  function handleFormSubmit(event) {
+    const form = document.querySelector('form');
+    const thankYouMessage = document.querySelector('.form-card-container1');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      thankYouMessage.classList.add('show');
+      // setTimeout(() => form.submit(), 2000);
+    });
+  }
   return (
     <div className={`form-card-container ${props.rootClassName} `}>
-      <form className="form-card-form">
-        <div className="form-card-container1">
-          <span className="form-card-text">{props.text}</span>
+      <form className='form-card-form'>
+        <div className='form-card-container1'>
+          <span className='form-card-text'>{props.text}</span>
         </div>
-        <div className="form-card-container2">
-          <span className="form-card-text1">{props.text2}</span>
+        <div className='form-card-container2'>
+          <span className='form-card-text1'>{props.text2}</span>
           <textarea
             placeholder={props.textarea_placeholder}
             id='message-area'
@@ -34,7 +42,7 @@ const FormCard = (props) => {
             onChange={setMessageValue}
           ></textarea>
         </div>
-        <div className='form-card-container2'>
+        <div className='form-card-container3'>
           <ReactWhatsapp
             className='form-card-button button'
             number='+57 316 8331920'
@@ -56,7 +64,7 @@ FormCard.defaultProps = {
   button: '¡Contactar!',
   link_button: 'https://wa.me/message/F4ZSFNDG5G64D1',
   text: 'Mensaje enviado correctamente',
-}
+};
 
 FormCard.propTypes = {
   text2: PropTypes.string,
@@ -65,6 +73,6 @@ FormCard.propTypes = {
   button: PropTypes.string,
   link_button: PropTypes.string,
   text: PropTypes.string,
-}
+};
 
 export default FormCard;

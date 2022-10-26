@@ -21,6 +21,9 @@
   justify-content: center;
   background-color: rgb(92, 184, 93);
 }
+.form-card-container1.show {
+  display: flex;
+}
 .form-card-text {
   align-self: center;
 }
@@ -56,13 +59,13 @@
   border-width: 0px;
   border-radius: 100px;
   padding-bottom: 30px;
-  background-color: #2F5597;
+  background-color: #2f5597;
 }
 .form-card-button:hover {
   background-color: rgba(47, 85, 151, 0.75);
 }
 
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .form-card-container {
     flex-direction: column;
   }
