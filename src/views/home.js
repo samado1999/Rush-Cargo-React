@@ -46,13 +46,13 @@ const Home = (props) => {
             <span className="home-text">Blog</span>
           </nav>
           <div className="home-icon-group">
-            <div data-type="BurgerMenu" className="home-burger-menu">
+            <div data-role="BurgerMenu" className="home-burger-menu">
               <svg viewBox="0 0 1024 1024" className="home-icon">
                 <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
               </svg>
             </div>
           </div>
-          <div data-type="MobileMenu" className="home-mobile-menu">
+          <div data-role="MobileMenu" className="home-mobile-menu">
             <nav className="home-nav1">
               <div className="home-container02">
                 <img
@@ -61,7 +61,7 @@ const Home = (props) => {
                   className="home-image1"
                 />
                 <div
-                  data-type="CloseMobileMenu"
+                  data-role="CloseMobileMenu"
                   className="home-close-mobile-menu"
                 >
                   <svg viewBox="0 0 1024 1024" className="home-icon02">

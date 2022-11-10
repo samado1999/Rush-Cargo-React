@@ -23,13 +23,13 @@ const Header = (props) => {
           <svg viewBox="0 0 877.7142857142857 1024" className="header-icon04">
             <path d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"></path>
           </svg>
-          <div data-type="BurgerMenu" className="header-burger-menu">
+          <div data-role="BurgerMenu" className="header-burger-menu">
             <svg viewBox="0 0 1024 1024" className="header-icon06">
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
             </svg>
           </div>
         </div>
-        <div data-type="MobileMenu" className="header-mobile-menu">
+        <div data-role="MobileMenu" className="header-mobile-menu">
           <nav className="header-nav">
             <div className="header-container1">
               <img
@@ -38,7 +38,7 @@ const Header = (props) => {
                 className="header-image1"
               />
               <div
-                data-type="CloseMobileMenu"
+                data-role="CloseMobileMenu"
                 className="header-close-mobile-menu"
               >
                 <svg viewBox="0 0 1024 1024" className="header-icon08">
